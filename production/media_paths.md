@@ -25,17 +25,20 @@ Example
 
 ## Standard folders under media root
 
-audio raw
-MEDIA_ROOT/audio/raw
+Media root (external drive)
+/Volumes/T9/truth-explains-media
 
-audio processed
-MEDIA_ROOT/audio/processed
+Audio raw
+/Volumes/T9/truth-explains-media/audio/raw
 
-music
-MEDIA_ROOT/music
+Audio processed
+/Volumes/T9/truth-explains-media/audio/processed
 
-renders
-MEDIA_ROOT/renders
+Music
+/Volumes/T9/truth-explains-media/music
+
+Renders
+/Volumes/T9/truth-explains-media/renders
 
 ## Naming standard
 
