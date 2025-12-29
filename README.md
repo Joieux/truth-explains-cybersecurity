@@ -2,6 +2,26 @@
 
 Cybersecurity explained by Truth, with patience.
 
+## Status
+
+![Project Status](https://img.shields.io/badge/status-active-brightgreen)
+![Content Type](https://img.shields.io/badge/content-video%20scripts-blue)
+![Tone](https://img.shields.io/badge/voice-calm%20and%20patient-purple)
+
+## Published episodes
+
+Use this table to track what is live and keep your launch cohesive.
+
+| Episode | Title | Status | Publish date | Link |
+| --- | --- | --- | --- | --- |
+| 01 | What cybersecurity actually is and what it is not | planned |  |  |
+| 02 | You do not need to be a genius to work in cybersecurity | planned |  |  |
+| 03 | The skills that matter before you learn tools | planned |  |  |
+| 04 | How hackers really think and why beginners misunderstand it | planned |  |  |
+| 05 | Why foundations beat shortcuts every time | planned |  |  |
+| 06 | How to start learning without burning out | planned |  |  |
+| 07 | Choosing a direction in cybersecurity without pressure | planned |  |  |
+
 ## About this project
 
 Truth Explains is an educational YouTube channel focused on explaining cybersecurity concepts slowly, clearly, and without hype.
