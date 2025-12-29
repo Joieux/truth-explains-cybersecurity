@@ -1,1 +1,131 @@
-/media/audio/processed
+{
+  "name": "04 Generate ElevenLabs audio from script",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "truth_explains/generate_audio",
+        "httpMethod": "POST",
+        "responseMode": "onReceived"
+      },
+      "id": "webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 260]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "name": "owner", "type": "string", "value": "Joieux" },
+            { "name": "repo", "type": "string", "value": "truth-explains-cybersecurity" },
+            { "name": "episode", "type": "string", "value": "={{$json.body.episode || \"01\"}}" },
+            { "name": "script_path", "type": "string", "value": "={{$json.body.script_path || \"scripts/video_01_what_cybersecurity_is.md\"}}" },
+            { "name": "voice_id", "type": "string", "value": "7NqGFKni4RdkLum3C1xd" },
+            { "name": "output_format", "type": "string", "value": "mp3_44100_128" },
+            { "name": "model_id", "type": "string", "value": "eleven_multilingual_v2" }
+          ]
+        }
+      },
+      "id": "normalize",
+      "name": "Normalize input",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [480, 260]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": "={{$json.owner}}",
+        "repository": "={{$json.repo}}",
+        "filePath": "={{$json.script_path}}"
+      },
+      "id": "github_get_file",
+      "name": "GitHub get script file",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 2,
+      "position": [720, 260],
+      "credentials": {
+        "githubApi": {
+          "id": "SELECT_IN_N8N",
+          "name": "GitHub API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const episode = $node[\"Normalize input\"].json.episode;\nconst voiceId = $node[\"Normalize input\"].json.voice_id;\nconst outputFormat = $node[\"Normalize input\"].json.output_format;\nconst modelId = $node[\"Normalize input\"].json.model_id;\n\nconst file = $node[\"GitHub get script file\"].json;\nconst raw = file.content || \"\";\n\nconst lines = raw.split(/\\r?\\n/);\nconst startIndex = lines.findIndex(l => l.trim().toLowerCase() === \"script\");\nlet text = \"\";\n\nif (startIndex >= 0) {\n  text = lines.slice(startIndex + 1).join(\"\\n\").trim();\n} else {\n  text = raw.trim();\n}\n\ntext = text.trim();\n\nconst safeEpisode = String(episode).padStart(2, \"0\");\nconst outPath = `/media/audio/processed/video_${safeEpisode}_ai.mp3`;\n\nreturn [{\n  episode: safeEpisode,\n  voice_id: voiceId,\n  output_format: outputFormat,\n  model_id: modelId,\n  text,\n  out_path: outPath\n}];"
+      },
+      "id": "prep",
+      "name": "Prepare ElevenLabs request",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [960, 260]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{\"https://api.elevenlabs.io/v1/text-to-speech/\" + $json.voice_id + \"?output_format=\" + $json.output_format}}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Accept", "value": "audio/mpeg" }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "json",
+        "bodyParametersJson": "={{JSON.stringify({ text: $json.text, model_id: $json.model_id, voice_settings: { stability: 0.7, similarity_boost: 0.75, style: 0.08, use_speaker_boost: false } })}}",
+        "options": {
+          "response": {
+            "responseFormat": "file"
+          }
+        }
+      },
+      "id": "elevenlabs",
+      "name": "ElevenLabs convert",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1200, 260],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "SELECT_IN_N8N",
+          "name": "ElevenLabs xi api key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "filePath": "={{$node[\"Prepare ElevenLabs request\"].json.out_path}}",
+        "dataPropertyName": "data"
+      },
+      "id": "writefile",
+      "name": "Write audio to disk",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [1440, 260]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Normalize input", "type": "main", "index": 0 }]]
+    },
+    "Normalize input": {
+      "main": [[{ "node": "GitHub get script file", "type": "main", "index": 0 }]]
+    },
+    "GitHub get script file": {
+      "main": [[{ "node": "Prepare ElevenLabs request", "type": "main", "index": 0 }]]
+    },
+    "Prepare ElevenLabs request": {
+      "main": [[{ "node": "ElevenLabs convert", "type": "main", "index": 0 }]]
+    },
+    "ElevenLabs convert": {
+      "main": [[{ "node": "Write audio to disk", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false
+}
+
