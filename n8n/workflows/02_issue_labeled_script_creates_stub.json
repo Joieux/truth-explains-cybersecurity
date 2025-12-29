@@ -1,0 +1,86 @@
+{
+  "name": "02 Issue labeled script creates stub",
+  "nodes": [
+    {
+      "parameters": {
+        "triggerOn": "issues",
+        "owner": "Joieux",
+        "repository": "truth-explains-cybersecurity",
+        "events": ["labeled"]
+      },
+      "id": "github_trigger",
+      "name": "GitHub trigger",
+      "type": "n8n-nodes-base.githubTrigger",
+      "typeVersion": 1,
+      "position": [240, 280],
+      "credentials": {
+        "githubApi": {
+          "id": "SELECT_IN_N8N",
+          "name": "GitHub API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json.label.name}}",
+              "operation": "equals",
+              "value2": "script"
+            }
+          ]
+        }
+      },
+      "id": "if_script",
+      "name": "If label is script",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [480, 280]
+    },
+    {
+      "parameters": {
+        "jsCode": "const issueTitle = $json.issue?.title || 'Untitled';\nconst issueNumber = $json.issue?.number || 0;\nconst episode = String(issueNumber).padStart(2,'0');\nconst slug = issueTitle\n  .toLowerCase()\n  .replace(/^idea:\\s*/,'')\n  .replace(/^script:\\s*/,'')\n  .replace(/[^a-z0-9]+/g,'_')\n  .replace(/^_+|_+$/g,'')\n  .slice(0,48);\n\nconst filePath = ;\n\nconst content = ;\n\nreturn [{ filePath, content }];"
+      },
+      "id": "build_stub",
+      "name": "Build stub",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [720, 280]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "create",
+        "owner": "Joieux",
+        "repository": "truth-explains-cybersecurity",
+        "filePath": "={{$json.filePath}}",
+        "fileContent": "={{$json.content}}",
+        "commitMessage": "={{\"Add script stub \" + $json.filePath}}"
+      },
+      "id": "github_create_file",
+      "name": "GitHub create file",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 2,
+      "position": [980, 280],
+      "credentials": {
+        "githubApi": {
+          "id": "SELECT_IN_N8N",
+          "name": "GitHub API"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "GitHub trigger": {
+      "main": [[{ "node": "If label is script", "type": "main", "index": 0 }]]
+    },
+    "If label is script": {
+      "main": [[{ "node": "Build stub", "type": "main", "index": 0 }]]
+    },
+    "Build stub": {
+      "main": [[{ "node": "GitHub create file", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false
+}

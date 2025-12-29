@@ -1,0 +1,70 @@
+{
+  "name": "01 Idea to GitHub Issue",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "truth_explains/idea",
+        "httpMethod": "POST",
+        "responseMode": "onReceived"
+      },
+      "id": "webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 260]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "name": "owner", "type": "string", "value": "Joieux" },
+            { "name": "repo", "type": "string", "value": "truth-explains-cybersecurity" },
+            { "name": "title", "type": "string", "value": "={{$json.body.title || \"Idea: Untitled\"}}" },
+            { "name": "core_question", "type": "string", "value": "={{$json.body.core_question || \"\"}}" },
+            { "name": "core_truth", "type": "string", "value": "={{$json.body.core_truth || \"\"}}" },
+            { "name": "why_matters", "type": "string", "value": "={{$json.body.why_matters || \"\"}}" },
+            { "name": "talking_points", "type": "string", "value": "={{$json.body.talking_points || \"\"}}" },
+            { "name": "audience", "type": "string", "value": "={{$json.body.audience || \"Beginners, career switchers, curious learners\"}}" },
+            { "name": "soft_close", "type": "string", "value": "={{$json.body.soft_close || \"You are not behind. Keep going.\"}}" }
+          ]
+        }
+      },
+      "id": "normalize",
+      "name": "Normalize input",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [480, 260]
+    },
+    {
+      "parameters": {
+        "resource": "issue",
+        "operation": "create",
+        "owner": "={{$json.owner}}",
+        "repository": "={{$json.repo}}",
+        "title": "={{$json.title}}",
+        "body": "={{\"## Working title\\n\\n\" + $json.title + \"\\n\\n## Who this is for\\n\\n\" + $json.audience + \"\\n\\n## Core question\\n\\n\" + $json.core_question + \"\\n\\n## Truth they should leave with\\n\\n\" + $json.core_truth + \"\\n\\n## Why this matters\\n\\n\" + $json.why_matters + \"\\n\\n## Main talking points\\n\\n\" + $json.talking_points + \"\\n\\n## Auntie check\\n\\nWould I say this to someone I care about\\nIs anything rushed or performative\\n\\n## Soft close idea\\n\\n\" + $json.soft_close + \"\\n\"}}",
+        "labels": ["idea"]
+      },
+      "id": "github_create_issue",
+      "name": "GitHub create issue",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 2,
+      "position": [760, 260],
+      "credentials": {
+        "githubApi": {
+          "id": "SELECT_IN_N8N",
+          "name": "GitHub API"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Normalize input", "type": "main", "index": 0 }]]
+    },
+    "Normalize input": {
+      "main": [[{ "node": "GitHub create issue", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false
+}

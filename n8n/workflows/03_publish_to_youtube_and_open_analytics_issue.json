@@ -1,0 +1,93 @@
+{
+  "name": "03 Publish to YouTube and open analytics issue",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "truth_explains/publish",
+        "httpMethod": "POST",
+        "responseMode": "onReceived"
+      },
+      "id": "webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 260]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "name": "episode", "type": "string", "value": "={{$json.body.episode || \"00\"}}" },
+            { "name": "title", "type": "string", "value": "={{$json.body.title || \"Untitled\"}}" },
+            { "name": "description", "type": "string", "value": "={{$json.body.description || \"\"}}" },
+            { "name": "privacyStatus", "type": "string", "value": "={{$json.body.privacyStatus || \"public\"}}" },
+            { "name": "categoryId", "type": "string", "value": "={{$json.body.categoryId || \"27\"}}" },
+            { "name": "render_path", "type": "string", "value": "={{$json.body.render_path || \"\"}}" }
+          ]
+        }
+      },
+      "id": "normalize",
+      "name": "Normalize input",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [480, 260]
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "operation": "upload",
+        "title": "={{$json.title}}",
+        "description": "={{$json.description}}",
+        "privacyStatus": "={{$json.privacyStatus}}",
+        "categoryId": "={{$json.categoryId}}",
+        "binaryData": false,
+        "filePath": "={{$json.render_path}}"
+      },
+      "id": "youtube_upload",
+      "name": "YouTube upload",
+      "type": "n8n-nodes-base.youtube",
+      "typeVersion": 1,
+      "position": [740, 260],
+      "credentials": {
+        "youTubeOAuth2Api": {
+          "id": "SELECT_IN_N8N",
+          "name": "YouTube OAuth2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "issue",
+        "operation": "create",
+        "owner": "Joieux",
+        "repository": "truth-explains-cybersecurity",
+        "title": "={{\"Analytics: Episode \" + $json.episode}}",
+        "body": "={{\"## Video\\n\\nEpisode number\\n\" + $json.episode + \"\\nTitle\\n\" + $json.title + \"\\nYouTube link\\n\" + ($node[\"YouTube upload\"].json.url || \"add link\") + \"\\n\\n## Check in point\\n\\n48 hours\\n\\n## What I looked at\\n\\nAverage view duration\\nRetention pattern\\nComments\\nTraffic source\\n\\n## What I ignored on purpose\\n\\nReal time views\\nSubscriber swings\\nComparisons to other channels\\n\\n## What happened\\n\\n\\n## Why I think this happened\\n\\n\\n## What viewers told me\\n\\n\\n## One small adjustment for next video\\n\\n\\n## What stays the same\\n\\n\\n## Next question this sparked\\n\\n\"}}",
+        "labels": ["analytics"]
+      },
+      "id": "github_analytics_issue",
+      "name": "GitHub create analytics issue",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 2,
+      "position": [1010, 260],
+      "credentials": {
+        "githubApi": {
+          "id": "SELECT_IN_N8N",
+          "name": "GitHub API"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [[{ "node": "Normalize input", "type": "main", "index": 0 }]]
+    },
+    "Normalize input": {
+      "main": [[{ "node": "YouTube upload", "type": "main", "index": 0 }]]
+    },
+    "YouTube upload": {
+      "main": [[{ "node": "GitHub create analytics issue", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false
+}
