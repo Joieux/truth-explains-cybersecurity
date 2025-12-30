@@ -1,27 +1,17 @@
 title: What Cybersecurity Is, For Real
 episode: 01
 
-note
-Opening reference: scripts/awnt_truth_musical_opening.md
-Ending reference: scripts/awnt_truth_musical_ending.md
-Do not change punctuation or line breaks in the opening or ending.
-
 script
 
 Hey there.
 
-So.
-
-Okay.
-
 I heard you had some questions  
 about cybersecurity.
 
-Awnt Truth has you.
+Let’s talk about it.
 
-We’re not in a rush.
-
-Let’s make this make sense.
+We’re going to take this slow  
+and make it make sense.
 
 Cybersecurity is protecting your digital life  
 the same way you protect your real one.
@@ -32,7 +22,11 @@ And you do not hand your keys
 to strangers.
 
 That’s it.  
-That’s the concept!
+That’s the concept.
+
+That’s how I break it down.
+
+Awnt Truth style.
 
 Now let’s talk about  
 what your digital life actually is.
