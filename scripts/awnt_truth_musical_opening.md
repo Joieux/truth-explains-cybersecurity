@@ -9,6 +9,6 @@ You’re in the right place.
 
 Awnt Truth has you.
 
-We’re not in a rush.
+We’re taking this slow.
 
 So let’s make this make sense.
