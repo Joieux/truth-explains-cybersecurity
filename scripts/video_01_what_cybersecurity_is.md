@@ -3,7 +3,7 @@ episode: 01
 
 script
 
-Hey.
+Hey!
 
 I heard you had some questions
 about cybersecurity.
@@ -18,44 +18,184 @@ Pause.
 
 Let’s make this make sense.
 
-Cybersecurity is just protecting your digital life the same way you protect your home. You lock the door. You check who’s knocking. You don’t hand your keys to strangers.
+Pause.
 
+Cybersecurity
+is just protecting your digital life
+the same way
+you protect your real one.
 
-In the cyber world, the “home” is your phone, your laptop, your accounts, your money, your pictures, your messages. And the “bad guys” are not always geniuses in hoodies. A lot of them are just running scams at scale, trying thousands of people until somebody slips.
+You lock the door.
+You check who is knocking.
+You do not hand your keys
+to strangers.
 
-Here are the three basics you need to know.
+Small laugh.
 
-First, confidentiality. 
+That is it.
+That is the concept.
 
-That means keeping private things private. Your passwords, your bank info, your personal photos. If somebody who shouldn’t see it can see it, confidentiality is broken.
+Pause.
 
-Second, integrity. 
+Now.
 
-That means keeping information accurate. If someone can change your grades, change a payment number, or change what a message says, integrity is broken.
+Your digital life is
+your phone,
+your laptop,
+your email,
+your money,
+your photos,
+your messages.
 
-Third, availability. 
+It is your whole routine.
 
-That means making sure you can access your stuff when you need it. If a hospital system gets locked up by ransomware and can’t pull patient files, availability is broken.
+Pause.
 
-Most cybersecurity work is just protecting those three things.
+And the so called bad guys
+are not always genius hackers
+in a hoodie
+with dramatic music.
 
-And the way we do it is with layers. 
+Small laugh.
 
-Strong passwords and a password manager. 
+Most of them are just
+running the same scams
+over and over
+at scale.
 
-Two factor authentication. 
+They are not looking for
+the smartest person.
 
-Updates. 
+They are looking for
+the tired person.
+The rushed person.
+The distracted person.
 
-Backups. 
+Pause.
 
-And being careful with links and attachments.
+So here is the foundation.
 
-That’s the foundation. We’re not chasing hackers. 
+Cybersecurity comes down to
+three things.
 
-We’re building habits and systems that make it hard for attacks to succeed.
+Just three.
 
-Alright, if this helped, stick with me. 
+Pause.
 
-We’re going to take this slow and make it make sense.
+Confidentiality.
 
+That means
+keep private things private.
+
+Passwords.
+Bank info.
+Personal photos.
+
+If someone who should not see it
+can see it,
+confidentiality is broken.
+
+Pause.
+
+Integrity.
+
+That means
+keep information accurate.
+
+If someone can change
+a number,
+a payment,
+a grade,
+or what a message says,
+integrity is broken.
+
+Pause.
+
+Availability.
+
+That means
+you can access your stuff
+when you need it.
+
+If a hospital system gets locked
+and doctors cannot pull patient files,
+
+pause,
+
+that is availability failing.
+
+That is real life impact.
+
+Pause.
+
+Most cybersecurity work
+is just protecting
+those three things.
+
+Pause.
+
+And we do it with layers.
+
+Not panic.
+Not perfection.
+
+Layers.
+
+Pause.
+
+Strong passwords
+and a password manager.
+
+Two factor authentication.
+
+Updates.
+
+Backups.
+
+And being careful
+with links
+and attachments.
+
+Pause.
+
+Let me give you an Aunt Truth rule
+that saves people.
+
+If something feels rushed,
+pause.
+
+If it feels like pressure,
+pause.
+
+Because pressure is the trick.
+
+Pause
+is the power.
+
+Small laugh.
+
+Now here is the good news.
+
+You do not have to be a hacker
+to protect yourself.
+
+You just need habits
+that make you hard to scam.
+
+Pause.
+
+Alright.
+That is enough for today.
+
+If this helped you,
+stay with me.
+
+We are building understanding,
+not rushing perfection.
+
+And if you want more of this,
+liking, sharing, or subscribing
+helps it reach
+the people who need it.
+
+I will see you next time.
