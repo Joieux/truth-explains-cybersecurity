@@ -1,21 +1,27 @@
 title: What Cybersecurity Is, For Real
 episode: 01
 
+note
+Opening reference: scripts/awnt_truth_musical_opening.md
+Ending reference: scripts/awnt_truth_musical_ending.md
+Do not change punctuation or line breaks in the opening or ending.
+
 script
 
-Hey there!
+Hey there.
 
 I heard you had some questions  
 about cybersecurity.
 
-No worries.  
-Awnt Truth got you. 
+That’s okay.
 
-So,
+Awnt Truth got you.
+
+We’re not in a rush.
+
 Let’s make this make sense.
 
 Cybersecurity is protecting your digital life  
-
 the same way you protect your real one.
 
 You lock the door to your home.  
