@@ -5,8 +5,9 @@ script
 
 Hey there.
 
-I heard you had some questions  
-about cybersecurity.
+I heard you had some questions.
+
+About cybersecurity.
 
 Let’s talk about it.
 
@@ -167,5 +168,6 @@ liking, sharing, or subscribing
 helps it reach  
 the people who need it.
 
-I'll see you next time.  
+I'll see you next time.
+
 We've got this.
