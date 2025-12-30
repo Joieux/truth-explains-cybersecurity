@@ -3,7 +3,7 @@ episode: 01
 
 script
 
-Hey.
+Hey there!
 
 I heard you had some questions
 about cybersecurity.
