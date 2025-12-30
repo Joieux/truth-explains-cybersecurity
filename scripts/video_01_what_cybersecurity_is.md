@@ -25,12 +25,12 @@ Let’s make this all make sense.
 
 ...
 
-Cybersecurity
+So, Cybersecurity
 is protecting your digital life
 the same way
 you protect your real one.
 
-You lock the door, You check who is knocking, and you would never hand your keys to strangers.
+You lock your door, You check who is knocking, and you would never hand your keys over to strangers.
 
 …
 
