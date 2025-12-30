@@ -12,15 +12,14 @@ No worries.
 ...
 
 I got you!
-
 ...
 
-Come over here and it with  
+Come over here and sit with  
 Awnt Truth.
 
 ...
 
-Let’s make this make sense.
+Let’s make this all make sense.
 
 ...
 
