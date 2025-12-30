@@ -190,7 +190,7 @@ Because pressure is the trick.
 And the pause
 is the power.
 
-…
+
 
 You do not have to be a hacker
 to protect yourself.
