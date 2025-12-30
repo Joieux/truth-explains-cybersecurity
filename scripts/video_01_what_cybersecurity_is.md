@@ -9,19 +9,16 @@ I heard you had some questions
 about cybersecurity.
 
 No worries.  
-I got you.
+Awnt Truth got you. 
 
-Come over here and sit with  
-Awnt Truth.
-
+So,
 Let’s make this make sense.
 
-Cybersecurity  
-is protecting your digital life  
-the same way  
-you protect your real one.
+Cybersecurity is protecting your digital life  
 
-You lock your door.  
+the same way you protect your real one.
+
+You lock the door to your home.  
 You check who is knocking.  
 And you do not hand your keys  
 to strangers.
