@@ -1,13 +1,14 @@
 Awnt Truth musical opening
+
 Hey there.
 
 I heard you had some questions  
 about cybersecurity.
 
-That’s okay.
+You’re in the right place.
 
-Awnt Truth got you.
+Awnt Truth has you.
 
 We’re not in a rush.
 
-Let’s make this make sense.
+So let’s make this make sense.
