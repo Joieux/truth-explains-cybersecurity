@@ -2,7 +2,7 @@ title: What Cybersecurity Is, For Real
 episode: 01
 
 script
-Hey baby, come sit with Auntie for a minute.
+Hey Truth here, I heard you were stressing about cybersecurity. No worries sit with Awntea for a minute, I got you.
 
 Cybersecurity is just protecting your digital life the same way you protect your home. You lock the door. You check who’s knocking. You don’t hand your keys to strangers.
 
