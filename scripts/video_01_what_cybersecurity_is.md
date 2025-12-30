@@ -5,168 +5,168 @@ script
 
 Hey there!
 
-I heard you had some questions
+I heard you had some questions  
 about cybersecurity.
 
-No worries.
+No worries.  
 I got you.
 
-Come over here and sit with
+Come over here and sit with  
 Awnt Truth.
 
 Let’s make this make sense.
 
-Cybersecurity
-is protecting your digital life
-the same way
+Cybersecurity  
+is protecting your digital life  
+the same way  
 you protect your real one.
 
-You lock your door.
-You check who is knocking.
-And you do not hand your keys
+You lock your door.  
+You check who is knocking.  
+And you do not hand your keys  
 to strangers.
 
-That’s it.
+That’s it.  
 That’s the concept!
 
-Now let’s talk about
+Now let’s talk about  
 what your digital life actually is.
 
-It’s your phone.
-Your laptop.
-Your email.
-Your accounts.
-Your money.
-Your photos.
+It’s your phone.  
+Your laptop.  
+Your email.  
+Your accounts.  
+Your money.  
+Your photos.  
 Your messages.
 
 It’s your whole routine.
 
-And the bad guys
-are not always genius hackers
-in a hoodie
+And the bad guys  
+are not always genius hackers  
+in a hoodie  
 with dramatic music.
 
-Most of them are just
-running scams
+Most of them are just  
+running scams  
 at scale.
 
-Same trick.
-New person.
+Same trick.  
+New person.  
 All day.
 
-They are not looking for
+They are not looking for  
 the smartest person.
 
-They are looking for
-someone tired.
-Someone rushed.
+They are looking for  
+someone tired.  
+Someone rushed.  
 Someone distracted.
 
-And that is why
-this matters!
+And that is why  
+this matters.
 
 So here is the foundation.
 
-Cybersecurity comes down to
+Cybersecurity comes down to  
 three things.
 
 Just three.
 
 First, confidentiality.
 
-That means
+That means  
 keeping private things private.
 
-Passwords.
-Bank info.
+Passwords.  
+Bank info.  
 Personal photos.
 
-If someone who should not see it
-can see it,
+If someone who should not see it  
+can see it,  
 confidentiality is broken.
 
 Second, integrity.
 
-That means
+That means  
 keeping information accurate.
 
-If someone can change
-a grade,
-a payment,
-a number,
-or what a message says,
+If someone can change  
+a grade,  
+a payment,  
+a number,  
+or what a message says,  
 integrity is broken.
 
 Third, availability.
 
-That means
-you can access your stuff
+That means  
+you can access your stuff  
 when you need it.
 
-If a hospital system gets locked
-and doctors cannot pull patient files,
+If a hospital system gets locked  
+and doctors cannot pull patient files,  
 that is availability failing.
 
 That is real life impact.
 
-Most cybersecurity work
-is just protecting
+Most cybersecurity work  
+is just protecting  
 those three things.
 
 And we do it with layers.
 
-Not panic.
+Not panic.  
 Not perfection.
 
 Layers.
 
-Strong passwords
+Strong passwords  
 and a password manager.
 
 Two factor authentication.
 
-Updates.
+Updates.  
 Backups.
 
-And being careful
-with links
+And being careful  
+with links  
 and attachments.
 
-Now here is an Awnt Truth rule
+Now here is an Awnt Truth rule  
 that will save you.
 
-If something feels rushed,
+If something feels rushed,  
 stop.
 
-If it feels like pressure,
+If it feels like pressure,  
 stop.
 
 Because pressure is the trick.
 
-And the pause
+And the pause  
 is the power.
 
-You do not have to be a hacker
+You do not have to be a hacker  
 to protect yourself.
 
-You just need habits
+You just need habits  
 that make you hard to scam.
 
 Alright.
 
 That’s enough for today.
 
-If this helped you,
+If this helped you,  
 stay with me.
 
-We’re building understanding,
+We’re building understanding,  
 not rushing perfection.
 
-And if you want more of this,
-liking, sharing, or subscribing
-helps it reach
+And if you want more of this,  
+liking, sharing, or subscribing  
+helps it reach  
 the people who need it.
 
-I'll see you next time.
+I'll see you next time.  
 We've got this.
