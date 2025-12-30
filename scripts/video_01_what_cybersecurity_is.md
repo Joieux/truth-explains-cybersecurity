@@ -8,31 +8,28 @@ Hey there!
 I heard you had some questions  
 about cybersecurity.
 
-No worries.  
-I got you.
+No worries. 
+...
 
-Come sit with  
+I got you!
+
+...
+
+Come over here and it with  
 Awnt Truth.
 
 ...
 
 Let’s make this make sense.
 
-…
-
-Let’s make this make sense.
-
-…
+...
 
 Cybersecurity
 is protecting your digital life
 the same way
 you protect your real one.
 
-You lock the door.
-You check who is knocking.
-You do not hand your keys
-to strangers.
+You lock the door, You check who is knocking, and you would never hand your keys to strangers.
 
 …
 
