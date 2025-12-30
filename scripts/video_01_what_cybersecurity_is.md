@@ -10,6 +10,8 @@ script
 
 Hey there.
 
+So.
+
 I heard you had some questions  
 about cybersecurity.
 
@@ -17,7 +19,7 @@ You’re in the right place.
 
 Awnt Truth has you.
 
-We’re taking this slow.
+We’re not in a rush.
 
 So let’s make this make sense.
 
