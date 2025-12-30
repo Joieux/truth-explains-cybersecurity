@@ -5,39 +5,29 @@ script
 
 Hey there!
 
-I heard you had some questions  
+I heard you had some questions
 about cybersecurity.
 
-No worries. 
+No worries.
+I got you.
 
-...
-
-I got you!
-
-...
-
-Come over here and sit with  
+Come over here and sit with
 Awnt Truth.
 
-...
+Let’s make this make sense.
 
-Let’s make this all make sense.
-
-...
-
-So, Cybersecurity
+Cybersecurity
 is protecting your digital life
 the same way
 you protect your real one.
 
-You lock your door, You check who is knocking, and you would never hand your keys over to strangers.
-
-…
+You lock your door.
+You check who is knocking.
+And you do not hand your keys
+to strangers.
 
 That’s it.
 That’s the concept!
-
-…
 
 Now let’s talk about
 what your digital life actually is.
@@ -52,14 +42,10 @@ Your messages.
 
 It’s your whole routine.
 
-…
-
 And the bad guys
 are not always genius hackers
 in a hoodie
 with dramatic music.
-
-…
 
 Most of them are just
 running scams
@@ -67,10 +53,7 @@ at scale.
 
 Same trick.
 New person.
-
 All day.
-
-…
 
 They are not looking for
 the smartest person.
@@ -83,16 +66,12 @@ Someone distracted.
 And that is why
 this matters!
 
-…
-
 So here is the foundation.
 
 Cybersecurity comes down to
 three things.
 
 Just three.
-
-…
 
 First, confidentiality.
 
@@ -107,8 +86,6 @@ If someone who should not see it
 can see it,
 confidentiality is broken.
 
-…
-
 Second, integrity.
 
 That means
@@ -121,8 +98,6 @@ a number,
 or what a message says,
 integrity is broken.
 
-…
-
 Third, availability.
 
 That means
@@ -130,21 +105,14 @@ you can access your stuff
 when you need it.
 
 If a hospital system gets locked
-and doctors cannot pull patient files
-
-…
-
+and doctors cannot pull patient files,
 that is availability failing.
 
 That is real life impact.
 
-…
-
 Most cybersecurity work
 is just protecting
 those three things.
-
-…
 
 And we do it with layers.
 
@@ -153,44 +121,31 @@ Not perfection.
 
 Layers.
 
-…
-
 Strong passwords
 and a password manager.
 
 Two factor authentication.
 
 Updates.
-
 Backups.
 
 And being careful
 with links
 and attachments.
 
-…
-
 Now here is an Awnt Truth rule
 that will save you.
 
-If something feels rushed
+If something feels rushed,
+stop.
 
-…
-
-pause.
-
-If it feels like pressure
-
-…
-
-pause.
+If it feels like pressure,
+stop.
 
 Because pressure is the trick.
 
 And the pause
 is the power.
-
-
 
 You do not have to be a hacker
 to protect yourself.
