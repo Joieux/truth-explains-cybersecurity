@@ -5,14 +5,18 @@ script
 
 Hey there!
 
-I heard you had some questions
+I heard you had some questions  
 about cybersecurity.
 
-No worries.
+No worries.  
 I got you.
 
-Come sit with
-Aunt Truth.
+Come sit with  
+Awnt Truth.
+
+...
+
+Let’s make this make sense.
 
 …
 
