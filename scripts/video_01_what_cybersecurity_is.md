@@ -170,7 +170,7 @@ and attachments.
 
 …
 
-Now here is an Aunt Truth rule
+Now here is an Awnt Truth rule
 that will save you.
 
 If something feels rushed
