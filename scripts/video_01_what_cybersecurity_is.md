@@ -168,5 +168,5 @@ liking, sharing, or subscribing
 helps it reach
 the people who need it.
 
-I’ll see you next time.
-We’ve got this.
+I'll see you next time.
+We've got this.
