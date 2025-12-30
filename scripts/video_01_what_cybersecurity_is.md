@@ -5,13 +5,11 @@ script
 
 Hey there.
 
-I heard you had some questions.
-
-About cybersecurity.
+I heard you had some questions about cybersecurity.
 
 Let’s talk about it.
 
-We’re going to take this slow  
+We’re going to take this slow,  
 and make it make sense.
 
 Cybersecurity is protecting your digital life  
