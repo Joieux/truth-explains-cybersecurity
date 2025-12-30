@@ -3,7 +3,7 @@ episode: 01
 
 script
 
-Hey!
+Hey.
 
 I heard you had some questions
 about cybersecurity.
@@ -14,14 +14,14 @@ I got you.
 Come sit with
 Aunt Truth.
 
-Pause.
+…
 
 Let’s make this make sense.
 
-Pause.
+…
 
 Cybersecurity
-is just protecting your digital life
+is protecting your digital life
 the same way
 you protect your real one.
 
@@ -30,48 +30,58 @@ You check who is knocking.
 You do not hand your keys
 to strangers.
 
-Small laugh.
+…
 
-That is it.
-That is the concept.
+That’s it.
+That’s the concept!
 
-Pause.
+…
 
-Now.
+Now let’s talk about
+what your digital life actually is.
 
-Your digital life is
-your phone,
-your laptop,
-your email,
-your money,
-your photos,
-your messages.
+It’s your phone.
+Your laptop.
+Your email.
+Your accounts.
+Your money.
+Your photos.
+Your messages.
 
-It is your whole routine.
+It’s your whole routine.
 
-Pause.
+…
 
-And the so called bad guys
+And the bad guys
 are not always genius hackers
 in a hoodie
 with dramatic music.
 
-Small laugh.
+…
 
 Most of them are just
-running the same scams
-over and over
+running scams
 at scale.
+
+Same trick.
+New person.
+
+All day.
+
+…
 
 They are not looking for
 the smartest person.
 
 They are looking for
-the tired person.
-The rushed person.
-The distracted person.
+someone tired.
+Someone rushed.
+Someone distracted.
 
-Pause.
+And that is why
+this matters!
+
+…
 
 So here is the foundation.
 
@@ -80,12 +90,12 @@ three things.
 
 Just three.
 
-Pause.
+…
 
-Confidentiality.
+First, confidentiality.
 
 That means
-keep private things private.
+keeping private things private.
 
 Passwords.
 Bank info.
@@ -95,44 +105,44 @@ If someone who should not see it
 can see it,
 confidentiality is broken.
 
-Pause.
+…
 
-Integrity.
+Second, integrity.
 
 That means
-keep information accurate.
+keeping information accurate.
 
 If someone can change
-a number,
-a payment,
 a grade,
+a payment,
+a number,
 or what a message says,
 integrity is broken.
 
-Pause.
+…
 
-Availability.
+Third, availability.
 
 That means
 you can access your stuff
 when you need it.
 
 If a hospital system gets locked
-and doctors cannot pull patient files,
+and doctors cannot pull patient files
 
-pause,
+…
 
 that is availability failing.
 
 That is real life impact.
 
-Pause.
+…
 
 Most cybersecurity work
 is just protecting
 those three things.
 
-Pause.
+…
 
 And we do it with layers.
 
@@ -141,7 +151,7 @@ Not perfection.
 
 Layers.
 
-Pause.
+…
 
 Strong passwords
 and a password manager.
@@ -156,25 +166,29 @@ And being careful
 with links
 and attachments.
 
-Pause.
+…
 
-Let me give you an Aunt Truth rule
-that saves people.
+Now here is an Aunt Truth rule
+that will save you.
 
-If something feels rushed,
+If something feels rushed
+
+…
+
 pause.
 
-If it feels like pressure,
+If it feels like pressure
+
+…
+
 pause.
 
 Because pressure is the trick.
 
-Pause
+And the pause
 is the power.
 
-Small laugh.
-
-Now here is the good news.
+…
 
 You do not have to be a hacker
 to protect yourself.
@@ -182,15 +196,16 @@ to protect yourself.
 You just need habits
 that make you hard to scam.
 
-Pause.
+…
 
 Alright.
-That is enough for today.
+
+That’s enough for today.
 
 If this helped you,
 stay with me.
 
-We are building understanding,
+We’re building understanding,
 not rushing perfection.
 
 And if you want more of this,
@@ -198,4 +213,4 @@ liking, sharing, or subscribing
 helps it reach
 the people who need it.
 
-I will see you next time.
+I’ll see you next time!
