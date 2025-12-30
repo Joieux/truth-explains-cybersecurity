@@ -1,23 +1,32 @@
-## Voice profile
+# Auntie Truth – ElevenLabs Voice Lock
 
-Female voice
-Lower to mid register
-Calm and mature
-Conversational
-No dramatic delivery
+These settings define the permanent voice for the channel.
+Do not change per episode.
 
-## Settings
+## Voice Settings (locked)
 
-Stability: 65 to 75  
-Clarity or similarity: 70 to 80  
-Style exaggeration: 5 to 10  
-Speaker boost: off  
-Playback speed: slightly slower than default if available
+{
+  "stability": 0.48,
+  "similarity_boost": 0.82,
+  "style": 0.30,
+  "use_speaker_boost": true
+}
 
-## Script formatting rules
+## Why this works
 
-Line break every one to two sentences  
-No exclamation points  
-Short paragraphs  
-Periods over commas when possible  
-Spell out acronyms on first use
+Stability below 0.5 keeps the voice expressive and human  
+Similarity boost keeps identity consistent  
+Style adds warmth and personality without sounding animated  
+Speaker boost improves presence without shouting  
+
+Energy comes from writing and pauses, not from changing these values.
+
+## Script rules that pair with this voice
+
+- Short lines create natural pauses
+- Line breaks equal breath
+- No exclamation points needed
+- Humor works best as dry observations
+- Trust the silence
+
+If something sounds flat, fix the script, not the voice.
