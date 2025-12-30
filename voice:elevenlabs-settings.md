@@ -1,32 +1,21 @@
-# Auntie Truth – ElevenLabs Voice Lock
+# Awnt Truth – ElevenLabs Voice Lock
 
 These settings define the permanent voice for the channel.
 Do not change per episode.
 
-## Voice Settings (locked)
+## Voice Settings (LOCKED)
 
-{
-  "stability": 0.48,
-  "similarity_boost": 0.82,
-  "style": 0.30,
-  "use_speaker_boost": true
-}
+model_id: eleven_multilingual_v2
+language_code: en
+apply_text_normalization: on
 
-## Why this works
+voice_settings:
+  stability: 0.38
+  similarity_boost: 0.86
+  style: 0.42
+  use_speaker_boost: true
 
-Stability below 0.5 keeps the voice expressive and human  
-Similarity boost keeps identity consistent  
-Style adds warmth and personality without sounding animated  
-Speaker boost improves presence without shouting  
-
-Energy comes from writing and pauses, not from changing these values.
-
-## Script rules that pair with this voice
-
-- Short lines create natural pauses
-- Line breaks equal breath
-- No exclamation points needed
-- Humor works best as dry observations
-- Trust the silence
-
-If something sounds flat, fix the script, not the voice.
+Rules:
+- Do not add speed
+- Do not change these values unless the voice is intentionally rebranded
+- Script pacing controls rhythm, not voice parameters
