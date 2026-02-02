@@ -1,0 +1,85 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  api-tests:
+    name: API Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          cd chatterbox
+          pip install flask pytest pytest-cov
+
+      - name: Run API tests
+        run: |
+          cd chatterbox
+          pytest tests/test_speech_api.py -v --cov=app --cov-report=term-missing
+
+  content-tests:
+    name: Content Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pytest
+
+      - name: Run content validation tests
+        run: pytest tests/test_content_validation.py -v
+
+  docker-build:
+    name: Docker Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          cd chatterbox
+          docker build -t chatterbox-test .
+
+      - name: Test container starts
+        run: |
+          docker run -d --name test-container -p 5001:5001 chatterbox-test
+          sleep 3
+          curl -sf -X POST http://localhost:5001/v1/audio/speech \
+            -H "Content-Type: application/json" \
+            -d '{"input": "test"}' \
+            -o /dev/null
+          docker stop test-container
+
+  shellcheck:
+    name: Shell Script Linting
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run shellcheck
+        run: |
+          if ls scripts/*.sh 1>/dev/null 2>&1; then
+            shellcheck scripts/*.sh
+          else
+            echo "No shell scripts found"
+          fi
