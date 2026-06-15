@@ -21,7 +21,7 @@ def shorts_dir():
 @pytest.fixture
 def video_scripts(scripts_dir):
     """List of all video script files."""
-    return sorted(scripts_dir.glob("video_*.md"))
+    return sorted(scripts_dir.glob("ep[0-9][0-9]_*.md"))
 
 
 @pytest.fixture

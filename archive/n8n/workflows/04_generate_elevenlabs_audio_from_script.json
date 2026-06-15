@@ -21,7 +21,7 @@
             { "name": "owner", "value": "Joieux" },
             { "name": "repo", "value": "truth-explains-cybersecurity" },
             { "name": "episode", "value": "={{$json.body.episode || \"01\"}}" },
-            { "name": "script_path", "value": "={{$json.body.script_path || \"scripts/video_01_what_cybersecurity_is.md\"}}" },
+            { "name": "script_path", "value": "={{$json.body.script_path || \"scripts/ep01_what_cybersecurity_is.md\"}}" },
             { "name": "voice_id", "value": "7NqGFKni4RdkLum3C1xd" },
             { "name": "model_id", "value": "eleven_multilingual_v2" },
             { "name": "language_code", "value": "en" },

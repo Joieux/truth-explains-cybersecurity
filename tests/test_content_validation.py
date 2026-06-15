@@ -54,8 +54,8 @@ class TestVideoScripts:
             assert has_closing, f"{script.name} missing closing"
 
     def test_video_filenames_are_sequential(self, video_scripts):
-        """Video scripts follow naming pattern video_XX_*.md."""
-        pattern = re.compile(r"video_(\d{2})_.*\.md")
+        """Video scripts follow naming pattern epXX_*.md."""
+        pattern = re.compile(r"ep(\d{2})_.*\.md")
 
         for script in video_scripts:
             match = pattern.match(script.name)
