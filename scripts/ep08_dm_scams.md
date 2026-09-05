@@ -1,99 +1,134 @@
-title: DM scams and fake support accounts
+title: DM Scams and Fake Support Accounts
 episode: 08
+color: red
 
 script
-Welcome.
 
-I’m Auntie Truth,
+Hey, family.
+Question for you.
 
-and we’re going to make cybersecurity
-make sense.
+Where are you most relaxed online?
 
-Today we are talking about scams in DMs.
+Not your email — you're suspicious there.
+Not your bank app — you're careful there.
 
-Because the scammer favorite place
-is wherever people feel casual.
+Your DMs.
 
-DMs feel personal.
+DMs feel like your living room.
+Casual. Personal. Safe.
 
-That is why they work.
+And that —
+*that* is exactly why
+scammers love them.
 
-Here are the top three DM scam patterns.
+They don't go where you're guarded.
+They go where you're comfortable.
 
-One,
-fake support.
+---
 
-You post a problem,
-and a random account replies
-we can help,
-message us.
+Three plays they run.
+Learn the shapes, and you'll see them
+from across the room.
 
-Then they send you a link
-or ask for a code.
+*Play one: fake support.*
 
-That is not support.
-That is a trap.
+You post about a problem —
+your account, your order, anything.
+Minutes later, a reply:
+"We can help. Message us."
 
-Two,
-verification scams.
+Real support doesn't slide into your DMs
+like an eager stranger.
+That's not support.
+That's a costume — episode four,
+in your living room.
 
-They say
-we sent a code to your phone,
-send it back to confirm.
+*Play two: the code grab.*
 
-That code is the key.
-If you give it away,
-they can take your account.
+Someone says:
+"We sent a code to your phone —
+send it back to confirm it's you."
 
-Three,
-money requests from friends.
+Family, hear me.
 
-Your friend account gets taken,
-and now the scammer is in the group chat
-acting brand new.
+That code *is* the key.
+It exists for exactly one reason:
+to prove the person typing it
+is holding your phone.
 
-This is where we use real life instincts.
+Send it to someone else,
+and you just handed your key
+through the mail slot.
 
-If it feels off,
-verify.
+Never share a login code.
+Not with "support."
+Not with a friend.
+Not with anyone.
+There is no exception.
+That's the whole rule.
+
+*Play three: the borrowed friend.*
+
+Your friend's account gets taken,
+and suddenly "they're" in the chat
+acting brand new —
+asking for money,
+asking for a code,
+pushing a link.
+
+Same face. Different hands.
+
+---
+
+So what's the defense?
+One move: the *second channel.*
+
+If a DM feels off —
+even from a friend —
+verify *outside that chat.*
 
 Call them.
 Voice note them.
-Ask something only your friend would know.
+Ask something only the real one knows.
 
-Not in the same chat thread.
+A real friend survives the check.
+A scammer dies by it.
 
-Second channel.
+And if anyone is rushing you —
+you already know.
+The pause is the power.
+It always was.
 
-Now your simple rules.
+---
 
-Never share login codes.
-Not for any reason.
-Not with anyone.
+Today's move, two minutes:
+turn on two factor for your socials,
+and check your recovery email and phone.
+Scammers lock people out
+by changing recovery first.
+Check yours before they do.
 
-Never click a random support link.
-Go to the official app.
-Go to the official help page.
+---
 
-And if someone is rushing you,
-that is the scam working.
+Alright, family.
+That's enough for today.
 
-Action step.
+You walked in thinking
+your DMs were the safe room.
+You're leaving knowing the three plays —
+and the one move that beats all of them.
 
-Turn on two factor for your socials.
+Your instincts already knew
+when something felt off.
+We just gave them permission to speak.
 
-Then check your recovery email and phone number.
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
 
-Because scammers love to lock you out
-by changing recovery info.
+Next time: the device itself.
+Your phone is your wallet now —
+so we're going to lock the wallet.
 
-If this helped you,
-stay with me.
-
-We’re learning how to move smarter online,
-not trying to be perfect.
-
-And if this felt useful,
-liking, sharing, or subscribing
-helps it reach more people
-who need it.
+I'll see you then.
+We've got this.

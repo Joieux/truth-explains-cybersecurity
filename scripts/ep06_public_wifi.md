@@ -1,103 +1,131 @@
-title: Public WiFi and coffee shop traps
+title: Public WiFi and Coffee Shop Traps
 episode: 06
+color: blue
 
 script
-Welcome.
 
-I’m Auntie Truth,
+Hey, family.
+Picture yourself at the coffee shop.
 
-and we’re going to make cybersecurity
-make sense.
+Laptop open.
+Latte going.
+Free WiFi.
 
-Today we are talking about public WiFi.
+Now ask yourself one question:
 
-Because public WiFi is convenient,
-but it can also be messy.
+Would you stand up,
+right there,
+and read your bank password
+*out loud?*
 
-Think of it like this.
+No?
 
-Public WiFi is a public room.
+Then we need to talk about
+what public WiFi actually is.
 
-You would not stand in a crowded room
-and read your bank login out loud.
+It's a public room.
+Everything you do on it
+happens in that room.
 
-So do not do the digital version of that.
+---
 
-Here is what can go wrong.
+Two things can go wrong.
 
-One, fake WiFi networks.
+*First:* the fake twin.
 
-You sit down at the coffee shop and see
-Cafe Free WiFi
+You look at the network list and see
+"Cafe Free WiFi"
 and
-Cafe Free WiFi 2
+"Cafe Free WiFi 2."
 
-One of those might be a scam.
-It is like a fake storefront
-right next to the real one.
+One of those might be a scammer
+sitting twenty feet away —
+a fake storefront
+built right next to the real one.
+You can't tell from the name.
+That's the point.
 
-Two, snooping on open networks.
+*Second:* the open room.
 
-Some public networks are not encrypted.
-That means people on the same network
-can sometimes peek at what is moving around.
+Some public networks aren't encrypted.
+Which means what moves through them
+can sometimes be *seen.*
 
-Not always,
-not everything,
-but enough to make it a bad habit.
+Not always.
+Not everything.
+But enough that it's a bad place
+for your important business.
 
-So what do we do.
+---
 
-Rule one,
-avoid logging into sensitive accounts
-on public WiFi.
+So here's the sorting rule.
+One question for everything you do out there:
 
-Email.
-Banking.
-Anything with your money or identity.
+"Would I mind if this room saw it?"
 
-Rule two,
-use your phone hotspot when it matters.
+Scrolling? Scroll in peace.
+Looking up directions? Fine.
+Watching videos? Enjoy.
 
-Hotspot is the safe ride home.
+Banking?
+Email?
+Anything touching money or identity?
 
-Rule three,
-keep your phone and laptop updated.
+That belongs at home —
+or on your phone's hotspot.
 
-Updates close known gaps.
-Old software is like leaving a window cracked
-and hoping nobody notices.
+Hotspot is the safe ride.
+It's *your* network,
+in your pocket,
+no twins, no strangers.
 
-Rule four,
-if you use a VPN,
-cool.
+---
 
-A VPN can help protect traffic,
-especially on sketchy networks.
+A word on VPNs,
+since somebody's uncle
+swears by his.
 
-But a VPN is not a magic shield.
+A VPN helps.
+It wraps your traffic in a private tunnel —
+useful on sketchy networks.
 
-Your best protection is still
-good habits.
+But it is not a force field.
+It doesn't stop phishing.
+It doesn't fix weak passwords.
 
-Action step.
+Good habits first.
+Tunnel second.
 
-Next time you are on public WiFi,
-do one thing.
+---
 
-If it is important,
-use hotspot.
+And remember episode five —
+keep the updates on.
+An updated phone in a public room
+is a locked briefcase.
+An outdated one
+is an open folder.
 
-If it is not important,
-scroll in peace.
+---
 
-If this helped you,
-stay with me.
+Alright, family.
+That's enough for today.
 
-We’re learning how to move smarter online,
-not trying to be perfect.
+You walked in afraid
+of every coffee shop network.
+You're leaving with one sorting question
+that tells you exactly
+what's safe and what waits till home.
 
-And if this felt useful,
-liking, sharing, or subscribing
-helps it reach more people
-who need it.
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
+
+Next time is different.
+Next time we don't just learn —
+we *build.*
+Bring your laptop.
+We're setting up your password manager,
+step by step, together.
+
+I'll see you then.
+We've got this.

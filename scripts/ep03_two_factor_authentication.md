@@ -1,107 +1,147 @@
 title: Two Factor Authentication, Without the Confusion
 episode: 03
+color: blue
 
 script
 
-Hey there.
+Hey, family.
+Last time I made you a promise.
 
-I heard you had some questions about two factor authentication.
+I said a stolen password
+doesn't have to mean a stolen account.
 
-Let’s talk about it.
+Today I keep that promise.
 
-We’re going to take this slow,
-and make it make sense.
+---
 
-Two factor authentication is a second lock.
+Picture this.
 
-Password is one lock.
+Somebody got your password.
+Maybe from a breach.
+Maybe from a list.
+Doesn't matter how.
 
-Two factor is the deadbolt.
+They're standing at your front door,
+holding a *copy of your key.*
 
-So if somebody steals your password,
-they still cannot get in.
+They slide it in.
+They turn it.
 
-Because they do not have the second thing.
+And the door —
+does not —
+open.
 
-That second thing can be:
+Because you put a deadbolt on that door.
+And the deadbolt doesn't take keys.
+It takes *you.*
 
-Something you know,
-something you have,
-or something you are.
+That is two factor authentication.
+And it turns a thief with your key
+into a person standing in a hallway.
 
-But here is the part people miss.
+---
 
-Not all two factor is equal.
+Here's how it works.
 
-Text message codes are better than nothing.
+To get in, you need two different things.
 
-But SIM swap is real.
+Something you *know* —
+that's the password.
 
-That is when someone convinces your phone company
-to move your number to their phone.
+Something you *have* —
+your phone, an app, a little hardware key.
 
-And now they get your text codes.
+Or something you *are* —
+your face, your fingerprint.
 
-That’s how I break it down.
+One gets stolen?
+The other one holds the door.
 
-Awnt Truth style.
+---
 
-So what is best?
+Now — real talk.
+Because I will never sell you a fairy tale.
 
-Authenticator apps.
+Not all second locks are equal.
 
-They generate codes on your device.
-No phone company involved.
+Those codes that come by text message?
+Better than nothing.
+But there's a trick called a SIM swap —
+where a scammer sweet-talks your phone company
+into moving YOUR number
+onto THEIR phone.
 
-Even better?
+Now your text codes
+are knocking on their door.
 
-Passkeys,
-or hardware keys,
-when available.
+So here's the upgrade.
 
-But do not get overwhelmed.
+An authenticator app.
+It makes the codes right there
+on your device.
+No phone company in the middle.
+Nobody to sweet-talk.
 
-Here is the upgrade path.
+And if a site offers passkeys
+or a hardware key —
+even better.
+That's the vault door.
 
-Step one:
-turn on two factor for your email.
+---
 
-Because your email is the master key to resets.
+But listen.
+Do not let the options overwhelm you.
 
-Step two:
-turn it on for your bank.
+Because here's the truth nobody says out loud:
 
-Step three:
-turn it on for your socials.
+Turning on ANY two factor
+puts you ahead of most of the internet.
 
-Use an authenticator app if you can.
+Scammers are fishing for easy.
+You just stopped being easy.
 
-If you must use SMS,
-do it for now.
-Then upgrade later.
+---
 
-The goal is layers.
+So here's today's move.
+One account.
 
-Not panic.
-Not perfection.
+Your email.
 
-Layers.
+Why email first?
+Because your email is the *master key* —
+it's where every other account
+sends its reset links.
+Guard the master key,
+and the whole ring gets stronger.
 
-Alright.
+Email today.
+Bank this week.
+Socials this weekend.
 
-That’s enough for today.
+One door at a time.
+No panic.
+Just layers.
 
-If this helped you,
-stay with me.
+---
 
-We’re building understanding,
-not rushing perfection.
+Alright, family.
+That's enough for today.
 
-And if you want more of this,
-liking, sharing, or subscribing
-helps it reach
-the people who need it.
+You walked in here
+with one lock on your life.
+You're walking out
+knowing how to put a deadbolt
+on every door that matters.
 
-I'll see you next time.
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
 
+Next time — we study the other side.
+Phishing.
+The message designed to make you
+open the door *yourself.*
+How to spot it from across the room.
+
+I'll see you then.
 We've got this.

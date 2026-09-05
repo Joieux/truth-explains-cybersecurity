@@ -1,121 +1,158 @@
 title: Passwords and Password Managers, For Real
 episode: 02
+color: blue
 
 script
 
-Hey there.
+Hey, family.
+Let me ask you something.
 
-I heard you had some questions about passwords.
+How many doors in your life
+open with the same key?
 
-Let’s talk about it.
+Your email.
+Your bank.
+Your photos.
+Your private conversations.
 
-We’re going to take this slow,
-and make it make sense.
+If one password opens all of that —
+that is not a key anymore.
+That is a *skeleton key.*
+And you are carrying it
+through a crowded room.
 
-A password is a key.
+---
 
-And right now,
-most people are out here
-using the same key
-for the front door,
-the side door,
-and the car.
+Now here is what the movies got wrong.
 
-That is not confidence.
-That is a horror movie setup.
+Hackers do not sit there
+guessing your password
+one try at a time.
 
-Here is the truth.
+They *buy lists.*
 
-Hackers do not guess your password
-like in the movies.
+A website you used in 2019 gets breached.
+Your password ends up on a list.
+And then a program —
+not a genius, a *program* —
+tries that password
+on every major site on the internet.
 
-They buy lists.
+Your bank.
+Your email.
+Your socials.
 
-They take passwords from one breach,
-and try them everywhere else.
-
-That is called credential stuffing.
-
-Same trick.
-New site.
+It is called credential stuffing.
+Same key.
+Every door.
 All day.
 
-That’s how I break it down.
+---
 
-Awnt Truth style.
+So how do we beat it?
 
-So what do we do?
+And family — this is the part I love.
 
-Two things.
+Because you do not need a better memory.
+You do not need to become a computer person.
 
-First,
-use a password manager.
+You need a better *system.*
 
-A password manager is a locked keychain.
+It is called a password manager.
+And it is a locked keychain.
 
-You create one strong master password.
-Then it makes strong,
-unique passwords
-for every account.
+You remember ONE strong password.
+Just one.
+And the manager creates
+long, strange, unbreakable keys
+for every single account you own.
 
-So even if one site gets breached,
-your other accounts do not fall like dominoes.
+A different key for every door.
 
-Second,
-stop making passwords that look like this.
+So when some website gets breached —
+and one of them *will* —
+the thieves walk away with one key.
+To one door.
+That you can change in thirty seconds.
 
-Summer2025!
-Password123!
-YourKidsName1!
+Nothing else falls.
+No dominoes.
+That's the whole trick.
 
-If I can guess it,
-a script can guess it.
+---
 
-Now,
-I know what you are thinking.
+Now I know what some of you are thinking.
 
 What if the password manager gets hacked?
 
-Good question.
+*Good.*
+You hear that?
+That question means you are already
+thinking like a defender.
+
+Here is the honest answer.
 
 Password managers are not magic.
-But they are built for this.
+But they are built for one job —
+guarding that vault.
+Watched. Tested. Updated.
 
-They are designed to protect your vault.
-They are monitored.
-They are updated.
-And they reduce the biggest risk of all:
+And they kill the biggest risk
+on the entire internet:
+the same password,
+used everywhere.
 
-Reused passwords.
+Perfect is not on the menu.
+*Stronger* is.
+And stronger starts today.
 
-Here is your simple starter plan.
+---
 
-Pick a password manager you trust.
-Turn on auto fill.
-Start with your email first.
-Then your banking.
-Then your socials.
+One more thing before you go.
 
-One at a time.
+Retire the passwords that look like this.
 
-No panic.
-Just progress.
+Summer2026.
+Password123.
+Your kid's name and a birthday.
 
-Alright.
+And yes — I said it last time,
+and I meant it:
+your dog's name
+with a one at the end
+is *not* it.
+Max is a good boy.
+Max is not a security strategy.
 
-That’s enough for today.
+If I can guess it,
+a script can guess it
+a million times a second.
 
-If this helped you,
-stay with me.
+Long beats clever.
+A sentence you'd never forget
+beats a word you have to remember.
 
-We’re building understanding,
-not rushing perfection.
+---
 
-And if you want more of this,
-liking, sharing, or subscribing
-helps it reach
-the people who need it.
+Alright, family.
+That's enough for today.
 
-I'll see you next time.
+You came in here
+carrying one key for every door.
+You're leaving with a plan
+for a whole keychain.
 
+That's not a small thing.
+That's the foundation.
+
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
+
+Next time: two factor authentication.
+The deadbolt behind the lock.
+Why a stolen password
+still doesn't get them in.
+
+I'll see you then.
 We've got this.

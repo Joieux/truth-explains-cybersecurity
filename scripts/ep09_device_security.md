@@ -1,86 +1,122 @@
-title: Device security like a wallet
+title: Device Security: Lock the Wallet
 episode: 09
+color: blue
 
 script
-Welcome.
 
-I’m Auntie Truth,
+Hey, family.
+Do me a favor.
 
-and we’re going to make cybersecurity
-make sense.
+Picture your wallet.
+Your keys.
+Your photo album.
+Your bank branch.
+Your mailbox.
 
-Today we are talking about device security.
+Now stack them all
+into one slab of glass
+that you leave face-up
+on café tables.
 
-Because your phone is not just a phone.
+That's your phone.
 
-It is your wallet,
-your keys,
-your photo album,
-your whole life.
+We protect it like we mean it —
+starting now.
 
-So we protect it like we mean it.
+---
 
-Four basics.
+Four locks. That's the whole lesson.
 
-One,
-screen lock.
+*Lock one: the screen.*
 
-Use a passcode.
-Longer than four digits.
-Biometrics are fine too,
-but keep a passcode.
+A passcode — six digits or more.
+Face and fingerprint are fine,
+they're convenient —
+but the passcode underneath
+is the real lock.
+Make it one nobody could guess
+from knowing your birthday.
 
-Two,
-updates.
+*Lock two: updates.*
 
-If your phone keeps asking to update,
-it is not trying to annoy you.
+When your phone begs to update,
+it is not nagging you.
+It's the lock company —
+episode five —
+shipping you a free new lock.
+Let it in.
 
-It is trying to patch a hole.
+*Lock three: Find My and remote wipe.*
 
-Three,
-Find My and remote wipe.
+Turn them on today.
+Because if the phone walks away,
+you want two powers:
+see where it is,
+and erase it from your couch.
+A stolen phone you can wipe
+is a loss.
+One you can't
+is a *breach.*
 
-Turn it on.
+*Lock four: automatic backups.*
 
-If your phone gets lost,
-you want options.
+The fireproof box again.
+Phone in the lake,
+phone in a taxi,
+phone just *dies* one Tuesday —
+your life steps onto the new phone
+like nothing happened.
 
-Four,
-backups.
+---
 
-Backups are peace.
+Now the reality check,
+because I promised you honesty.
 
-If you drop your phone in water,
-or it disappears,
-you should not lose everything.
+If someone gets your *unlocked* phone,
+they can reset your accounts,
+approve your logins,
+and move your money —
+because the phone is where
+all your codes land.
 
-Now a quick reality check.
+That's not a reason to panic.
+It's the reason lock one exists.
 
-If someone gets into your unlocked phone,
-they can reset accounts,
-approve logins,
-and move money.
+The whole tower
+rests on the screen lock.
+So make it a real one.
 
-So yes,
-lock it like it matters.
+---
 
-Action step.
+Today's move, three switches:
+strong passcode,
+Find My on,
+auto-backup on.
 
-Today,
-turn on Find My.
-Turn on automatic backups.
-Set a strong passcode.
+Ten minutes.
+Real upgrade.
 
-That is a real upgrade.
+---
 
-If this helped you,
-stay with me.
+Alright, family.
+That's enough for today.
 
-We’re learning how to move smarter online,
-not trying to be perfect.
+You walked in carrying
+your whole life on a slab of glass.
+You're leaving with four locks on it —
+and you finally *see* what you're carrying.
 
-And if this felt useful,
-liking, sharing, or subscribing
-helps it reach more people
-who need it.
+You protect what you can see.
+
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
+
+And next time — something special.
+Some of you have been feeling it:
+"I *like* this. Could I do this?"
+Next time: how to start in cybersecurity.
+Thirty days. Fifteen minutes at a time.
+
+I'll see you then.
+We've got this.

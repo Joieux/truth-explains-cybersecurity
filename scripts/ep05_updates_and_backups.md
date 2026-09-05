@@ -1,86 +1,115 @@
 title: Updates and Backups: The Boring Stuff That Saves You
 episode: 05
+color: green
 
 script
 
-Hey there.
+Hey, family.
+Today's lesson is not glamorous.
 
-I heard you had some questions about updates and backups.
+It's better than glamorous.
+It's the one that saves you.
 
-Let’s talk about it.
+---
 
-We’re going to take this slow,
-and make it make sense.
+Imagine your lock company calls and says:
+"We found a flaw in your lock model.
+Every burglar has the video.
+We'll ship you a new lock —
+*free* — today.
+We'll even install it while you sleep."
 
-Updates are patches.
+You'd say yes.
+Obviously.
 
-They fix known holes.
+That phone call is a software update.
 
-A lot of attacks are not clever.
+---
 
-They are old.
-They are automated.
-They are scanning for devices
-that did not update.
+Because here's the truth about most attacks.
 
-So when you delay updates,
-you are leaving a window open
-because you do not feel like getting up.
+They are not clever.
+They are *old.*
 
-That’s how I break it down.
+Automated programs,
+scanning day and night
+for devices that didn't update.
 
-Awnt Truth style.
+Not hunting *you.*
+Hunting whoever left
+the old lock on the door.
+
+Delaying an update
+isn't saving you time.
+It's sleeping behind a lock
+every thief has the key to —
+because getting up felt like work.
+
+---
 
 Now backups.
 
-Backups are your safety net.
+A backup is the fireproof box
+with the copy of the photo album.
 
-If ransomware hits,
-if a laptop dies,
-if you delete something by accident,
-a backup lets you breathe.
+Ransomware locks your files? Breathe.
+Laptop dies? Breathe.
+You delete the wrong folder
+at midnight? *Breathe.*
 
-Here is the rule.
+You have a copy.
+Nothing they hold hostage
+is the only one.
 
-One copy is not a backup.
+But here's the rule people miss:
+one copy is not a backup.
 
-Backups need to exist in another place.
+The copy has to live *somewhere else.*
+The cloud counts.
+A drive in the drawer counts.
+The same laptop does not count.
 
-Cloud counts.
-An external drive counts.
-But it has to be separate.
+---
 
-Here is your simple plan.
+And here's the part I love
+about today's lesson.
+
+You barely have to do anything.
 
 Turn on automatic updates.
-
 Turn on automatic backups.
+Two switches.
+Today.
 
-And once a month,
-check that your backup actually works.
+Then once a month,
+check the backup actually works —
+because the worst day to find
+a broken safety net
+is the day you fall.
 
-Because the time to discover a broken backup
-is not the day you need it.
+Scammers count on you being busy.
+Automation means you win
+*while you sleep.*
 
-Layers.
-Not panic.
-Not perfection.
+---
 
-Alright.
+Alright, family.
+That's enough for today.
 
-That’s enough for today.
+You walked in thinking
+security takes effort every day.
+You're leaving with two switches
+that work the night shift for you.
 
-If this helped you,
-stay with me.
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
 
-We’re building understanding,
-not rushing perfection.
+Next time: the coffee shop.
+Public WiFi —
+what's actually risky,
+what isn't,
+and the one move that covers you.
 
-And if you want more of this,
-liking, sharing, or subscribing
-helps it reach
-the people who need it.
-
-I'll see you next time.
-
+I'll see you then.
 We've got this.

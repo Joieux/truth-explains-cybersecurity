@@ -1,105 +1,133 @@
 title: Phishing, For Real: How People Get Got
 episode: 04
+color: red
 
 script
 
-Hey there.
+Hey, family.
+Last time I made you a promise.
+I said we'd study the other side.
 
-I heard you had some questions about phishing.
+Today we do.
 
-Let’s talk about it.
+---
 
-We’re going to take this slow,
-and make it make sense.
+Here's the thing nobody tells you.
 
-Phishing is social engineering.
+Nobody breaks into your house
+if they can talk you
+into opening the door.
+
+That's phishing.
 
 It is not hacking your device.
+It is hacking your *decisions.*
 
-It is hacking your decisions.
+---
 
-A phish is a message
-that tries to rush you
-into doing something.
+A phish is a message in a costume.
+
+Dressed like your bank.
+Dressed like the delivery company.
+Dressed like your boss.
+
+And under the costume —
+the same script, every time:
 
 Click this.
 Log in here.
-Pay this.
 Confirm this.
-
-And it almost always comes with pressure.
+Pay this.
+*Now.*
 
 Your account will be closed.
-Your package is delayed.
+Your package is stuck.
 Your payment failed.
-Your boss needs this now.
 
-Same trick.
-New person.
+Different costume.
+Same script.
 All day.
 
-That’s how I break it down.
+---
 
-Awnt Truth style.
+So how do you spot a costume
+from across the room?
+Three red flags.
 
-Here are the three red flags.
+*First:* urgency.
+Real companies don't give you
+sixty seconds to act.
+Scammers do.
+If it feels rushed — stop.
 
-First,
-urgency.
+*Second:* a link you didn't ask for.
+Even if it looks real.
+*Especially* if it looks real.
 
-If it feels rushed,
-stop.
+*Third:* the small stuff that's off.
+An email address one letter wrong.
+A greeting that isn't how they talk.
+A tone that doesn't fit.
 
-Second,
-a link you did not ask for.
+Costumes are good now.
+But they're never perfect.
 
-Even if it looks real,
-do not trust it.
-Verify it.
+---
 
-Third,
-weird details.
+And here's your whole defense.
+One habit.
 
-A slightly off email address.
-A strange greeting.
-A tone that does not match the real company.
+Never enter through a door
+somebody else held open.
 
-Now,
-your defense is simple.
+Don't click their link.
+Go to the app *yourself.*
+Type the website *yourself.*
+Use your own bookmark.
 
-Do not click the link.
+If "your boss" sends something strange —
+call them.
+A real boss survives a phone call.
+A scammer doesn't.
 
-Go to the app.
-Go to the website yourself.
-Type it in.
-Use your bookmark.
+---
 
-And if it is from “your boss”
-and it feels odd,
-verify with a call or chat.
-
-Because phishing wins
-when you are tired,
+Because here's what they're counting on:
+that you're tired,
 rushed,
-and distracted.
+distracted.
 
-And you are allowed to protect your peace.
+So when that message hits
+and your stomach tightens —
+that tightness is the costume working.
 
-Alright.
+You don't owe any message
+a fast answer.
+You are allowed
+to protect your peace.
 
-That’s enough for today.
+---
 
-If this helped you,
-stay with me.
+Alright, family.
+That's enough for today.
 
-We’re building understanding,
-not rushing perfection.
+You walked in thinking
+hackers break down doors.
+You're leaving knowing
+they mostly just knock —
+and hope you don't look
+through the peephole.
 
-And if you want more of this,
-liking, sharing, or subscribing
-helps it reach
-the people who need it.
+You look now.
 
-I'll see you next time.
+Stay with me.
+We're building this together.
+Understanding first. Tools second.
 
+Next time: the boring superpowers.
+Updates and backups.
+The two switches that protect you
+*while you sleep.*
+
+I'll see you then.
 We've got this.
