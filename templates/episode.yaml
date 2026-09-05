@@ -1,0 +1,72 @@
+series: "Truth Explains Cybersecurity"
+
+episode:
+  number: "EPXX"
+  title: ""
+  topic: ""
+  color_team: ""
+  status: "draft"
+
+creative_direction:
+  format: "narration-first"
+  narrator: "Aunt Truth / Aurora Reid"
+  narrator_is_default_visual_subject: false
+  viewer_surrogate: "Maya"
+
+audio:
+  narration:
+    source: ""
+    voice: "Aunt Truth"
+  music:
+    mood: ""
+    source: ""
+  sfx: []
+
+beats:
+  - id: "beat_01"
+    purpose: "hook"
+
+    narration: ""
+
+    visual:
+      subject: ""
+      action: ""
+      environment: ""
+      metaphor: ""
+
+      aunt_truth:
+        visible: false
+        reason: ""
+
+      maya:
+        visible: false
+        reason: ""
+
+      camera:
+        framing: ""
+        movement: ""
+
+      motion:
+        description: ""
+
+      on_screen_text:
+        enabled: false
+        text: ""
+
+    audio:
+      sfx: []
+      music_note: ""
+
+    transition:
+      type: ""
+      note: ""
+
+qa:
+  narration_first: false
+  visuals_show_subject_of_narration: false
+  aunt_truth_not_overused: false
+  maya_used_only_as_viewer_surrogate: false
+  lighting_matches_design_system: false
+  music_does_not_compete_with_voice: false
+  episode_understandable_visually: false
+  episode_understandable_from_narration: false
