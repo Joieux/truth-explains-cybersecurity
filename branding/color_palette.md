@@ -1,26 +1,11 @@
 # Truth Explains color palette
 
-Goal
-Warm, calm, high contrast readability.
+**This file is retired.** Color palette, lighting, and background rules
+now live in `design_system.md` — this avoided two files drifting apart
+as rules got added (see the 2026-06-19 audit that added the scene-art
+lighting rule and narrative role rule to `design_system.md`).
 
-## Core colors
+Go to `design_system.md` → Color palette, and Scene-art lighting rule.
 
-Background options
-Warm charcoal
-Deep brown
-
-Text color
-Soft cream or off white
-
-Accent options
-Muted gold
-Dusty terracotta
-
-## Usage rules
-
-Use one background color per asset.
-Use the same text color across assets.
-Use accents for small highlights only.
-
-If you feel tempted to add more color, stop.
-Keep it calm and consistent.
+This file is kept only so old links/references don't break. Do not edit
+it further — edit `design_system.md` instead.

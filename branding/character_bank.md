@@ -1,6 +1,6 @@
 # Auntie Truth — Character Bank
 **Canon design: Aurora Reid (v2)** · Reference: `branding/character_reference/auntie_truth_ref_v2.jpg`
-Updated 2026-06-09. Supersedes all earlier anchors.
+Updated 2026-06-19. Adds cross-reference to design_system.md narrative role rule.
 
 > **Continuity note:** EP01's *thumbnail* already shows Aurora Reid in the purple
 > windbreaker — matching EP01's purple tag in the color wheel. Only EP01's in-episode
@@ -41,6 +41,13 @@ cinematic lighting.
 **The ONLY thing that changes per topic: the windbreaker color and the studio's
 LED accent lighting.** Same jacket, same cut, same circuit-board panels — new color.
 
+> **When does Aurora actually appear on screen?** See `design_system.md` →
+> Narrative role rule. Short version: she is the storyteller, not the
+> default subject of every beat. She appears for direct address, narration
+> anchors, and transitions — not for every concept the script describes.
+> Most beats should show the thing being talked about (locks, keys, phones,
+> Maya, doors) rather than Aurora explaining it to camera.
+
 ---
 
 ## COLOR WHEEL OUTFIT ANCHORS
@@ -64,6 +71,42 @@ Purple is her default. When in doubt, purple.
 show her in a near-black jacket under a warm amber grade — they slot into ANY
 color-tagged episode without breaking the wardrobe code. The episode's team color
 lives in the scene art, thumbnail, and accent graphics; library inserts stay evergreen.
+
+---
+
+## MAYA — Viewer Surrogate
+
+Not Aunt Truth. A second, deliberately ordinary character used when a scene
+needs to show the *viewer's* experience — doubt, worry, a quiet daily moment
+with technology — rather than Aurora explaining something to camera.
+
+No studio. No recurring dialogue. No signature style. She is a mirror, not
+a personality, and should never compete visually with Aurora.
+
+```
+Maya: ordinary woman, mid-30s, average build, approachable and
+unremarkable — designed so the audience projects themselves onto her
+rather than admiring her. Casual everyday clothing, nothing trendy or
+distinctive. Brown hair, simple and unstyled — low ponytail or loose.
+No signature accessories, no bold colors, no branding, no jewelry that
+draws attention. The visual opposite of Aurora Reid's stylized design.
+Anime art style — MAPPA-style linework, flat cell-shading, cinematic
+lighting (same render style as Aurora, different design philosophy).
+```
+
+**Locked:**
+- Mid-30s, average build, ordinary and relatable
+- Plain, unstyled brown hair
+- No accessories, no logos, no distinctive colors
+- Settings vary freely (park, kitchen, commute, desk) — she has no fixed environment the way Aurora has her studio
+
+**Use Maya for:**
+- Beats that dramatize the viewer's internal thought or doubt before Aurora responds to it
+- Everyday moments with a device (checking a phone, glancing at a notification) where the emotional point is relatability, not explanation
+
+**Do not use Maya for:**
+- Direct-to-camera explanation — that's Aurora's role
+- Any beat where the narration is Aurora speaking
 
 ---
 
