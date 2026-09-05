@@ -25,6 +25,14 @@ Use before final export.
 - [ ] Maya remains visually secondary to the Truth Explains brand.
 - [ ] Her reactions and actions represent believable everyday behavior.
 
+## Supporting characters / NPCs
+
+- [ ] NPCs are used when the scenario logically requires other people.
+- [ ] NPC dialogue advances the scene or cybersecurity lesson.
+- [ ] NPCs do not become competing hosts.
+- [ ] Maya is not unnecessarily used for every ordinary-person role.
+- [ ] Recurring NPCs remain visually and narratively consistent.
+
 ## Visuals
 
 - [ ] Each beat shows what the narration is actually discussing.

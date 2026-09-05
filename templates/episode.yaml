@@ -42,6 +42,15 @@ beats:
         visible: false
         reason: ""
 
+      npcs: []
+      # Example:
+      # - id: "npc_01"
+      #   role: "coworker"
+      #   description: ""
+      #   visible: true
+      #   action: ""
+      #   dialogue: ""
+
       camera:
         framing: ""
         movement: ""

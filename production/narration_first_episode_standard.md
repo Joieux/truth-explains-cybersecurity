@@ -81,9 +81,58 @@ Rule of thumb:
 
 ---
 
+## Supporting characters / NPCs
+
+Truth Explains may use recurring or one-off supporting characters whenever the
+story benefits from showing another person in the situation.
+
+NPCs exist to make the cybersecurity scenario concrete and believable.
+
+Examples include:
+
+- coworkers
+- friends
+- family members
+- managers
+- attackers or scammers
+- help-desk staff
+- delivery drivers
+- strangers on public Wi-Fi
+- customers
+- employees
+- neighbors
+- other ordinary technology users
+
+NPCs may speak when dialogue makes the scene clearer, more natural, or more
+memorable.
+
+They are not additional hosts.
+
+Their purpose is to:
+
+- create believable situations
+- demonstrate social engineering
+- show different reactions or decisions
+- provide dialogue that advances the lesson
+- represent roles needed by the scenario
+- make the world feel populated rather than staged
+
+NPC dialogue should remain concise and subordinate to the episode's teaching
+goal.
+
+Recurring NPCs may develop recognizable traits over time, but they must not
+compete with Aunt Truth's role as narrator and guide.
+
+Use an NPC when the scene logically needs another human being.
+
+Do not force Maya into every ordinary-person role simply because she already
+exists.
+
+---
+
 ## Maya's role
 
-Maya is the viewer surrogate.
+Maya is the primary viewer surrogate.
 
 She represents ordinary people experiencing technology, uncertainty,
 mistakes, scams, security decisions, and everyday digital life.
