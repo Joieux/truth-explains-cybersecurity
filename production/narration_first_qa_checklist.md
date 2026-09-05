@@ -86,3 +86,18 @@ Then watch normally:
 
 If all three are true, the episode follows the Truth Explains production
 standard.
+
+
+## Recurring cast
+
+- [ ] The story determined the cast rather than the available characters.
+- [ ] The scene actually benefits from showing a person.
+- [ ] Maya and Kirk are not treated as automatic adult defaults.
+- [ ] Zuri and Darius are portrayed as digitally fluent without assuming they
+      are cybersecurity experts.
+- [ ] Nia and Malik are portrayed in age-appropriate situations.
+- [ ] Joni and Terrance are not stereotyped as technologically incompetent.
+- [ ] Joni and Terrance may appear separately when appropriate.
+- [ ] Cross-generational casting allows knowledge to flow in either direction.
+- [ ] NPCs are used when a recurring character would feel forced.
+- [ ] Recurring-character visual continuity is preserved.

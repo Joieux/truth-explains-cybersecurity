@@ -11,7 +11,29 @@ creative_direction:
   format: "narration-first"
   narrator: "Aunt Truth / Aurora Reid"
   narrator_is_default_visual_subject: false
-  viewer_surrogate: "Maya"
+  viewer_surrogate: "scenario-selected"
+
+recurring_cast:
+  narrator:
+    - "Aunt Truth / Aurora Reid"
+
+  children:
+    - "Nia"
+    - "Malik"
+
+  gen_z:
+    - "Zuri"
+    - "Darius"
+
+  adults:
+    - "Maya"
+    - "Kirk"
+
+  seniors:
+    - "Joni"
+    - "Terrance"
+
+  casting_rule: "Story determines cast; no recurring character is mandatory."
 
 audio:
   narration:
@@ -27,6 +49,15 @@ beats:
     purpose: "hook"
 
     narration: ""
+
+    characters: []
+    # Example:
+    # - name: "Kirk"
+    #   role: "viewer-surrogate"
+    #   visible: true
+    #   action: ""
+    #   dialogue: ""
+    #   reason_for_casting: ""
 
     visual:
       subject: ""
