@@ -1,0 +1,27 @@
+{
+  "name": "truth-explains-remotion",
+  "version": "1.0.0",
+  "description": "Remotion video compositions for Truth Explains",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render Video01v2",
+    "build:legacy": "remotion render Video01-Legacy",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "keywords": [],
+  "author": "Truth Explains",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.417",
+    "@remotion/cli": "^4.0.417",
+    "@remotion/transitions": "^4.0.417",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.417"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "typescript": "^5.9.3"
+  }
+}

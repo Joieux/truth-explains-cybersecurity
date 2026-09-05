@@ -1,0 +1,5 @@
+# Preserve the exact bytes of historical source files, including legacy whitespace.
+archive/legacy_desktop_2026-09-05/** -whitespace
+
+# Keep generated text manifests readable across platforms.
+*.csv text eol=lf
