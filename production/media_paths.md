@@ -4,7 +4,6 @@ This repo stores scripts and workflows.
 Audio, music, renders live outside GitHub.
 
 Rule
-n8n must reference local filesystem paths.
 
 ## Choose one media root
 

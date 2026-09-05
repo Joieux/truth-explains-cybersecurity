@@ -4,23 +4,7 @@ set -euo pipefail
 mkdir -p scripts
 mkdir -p docs
 mkdir -p shorts
-mkdir -p n8n/docs
 
-cat > n8n/docs/elevenlabs_voice_settings.md <<'EOT'
-# ElevenLabs voice settings for Auntie Truth
-
-Add a body parameter in the n8n node ElevenLabs convert:
-
-Name
-voice_settings
-
-Value as Expression
-{{ { "stability": 0.48, "similarity_boost": 0.82, "style": 0.30, "use_speaker_boost": true } }}
-
-Notes
-Keep line breaks in scripts. ElevenLabs reads them as natural pauses.
-Avoid exclamation points. Let the rhythm do the energy.
-EOT
 
 cat > docs/auntie_truth_reference_bank.md <<'EOT'
 # Auntie Truth reference bank
@@ -418,7 +402,7 @@ Protect your future self.
 Auntie Truth.
 EOT
 
-git add n8n/docs/elevenlabs_voice_settings.md docs/auntie_truth_reference_bank.md docs/visual_style_guide.md
+git add docs/auntie_truth_reference_bank.md docs/visual_style_guide.md
 git add shorts/shorts_template.md shorts/short_02_passwords_hook.md shorts/short_03_phishing_pause.md shorts/short_04_two_factor_second_lock.md shorts/short_05_updates_are_protection.md
 git add scripts/video_02_passwords_that_do_not_get_you_hacked.md scripts/video_03_phishing_and_social_engineering.md scripts/video_04_two_factor_is_your_second_lock.md scripts/video_05_updates_and_backups.md
 git add scripts/add_auntie_truth_brand_pack.sh
