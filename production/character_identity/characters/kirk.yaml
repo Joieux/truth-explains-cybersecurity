@@ -1,0 +1,85 @@
+character_id: "kirk"
+display_name: "Kirk"
+
+identity_version: "1.0"
+status: "REFERENCE_PENDING"
+
+canonical_media_library: "~/Documents/Codex/truth-explains-media"
+
+paths:
+  master: "characters/kirk/identity/master"
+  expressions: "characters/kirk/identity/expressions"
+  variants: "characters/kirk/variants"
+  approved: "characters/kirk/approved"
+
+immutable_identity:
+  face_identity: "PENDING_APPROVED_REFERENCE"
+  facial_geometry: "PENDING_APPROVED_REFERENCE"
+  skin_tone: "PENDING_APPROVED_REFERENCE"
+  apparent_age: "PENDING_APPROVED_REFERENCE"
+  eyes: "PENDING_APPROVED_REFERENCE"
+  nose: "PENDING_APPROVED_REFERENCE"
+  lips: "PENDING_APPROVED_REFERENCE"
+  jaw: "PENDING_APPROVED_REFERENCE"
+  cheeks: "PENDING_APPROVED_REFERENCE"
+  natural_hairline: "PENDING_APPROVED_REFERENCE"
+  baseline_hair: "PENDING_APPROVED_REFERENCE"
+  body_proportions: "PENDING_APPROVED_REFERENCE"
+  distinguishing_features: []
+
+controlled_variants:
+  hairstyle: []
+  facial_hair: []
+  eyewear: []
+  wardrobe: []
+  accessories: []
+
+scene_variables:
+  - expression
+  - pose
+  - activity
+  - camera_angle
+  - framing
+  - lighting
+  - environment
+  - time_of_day
+  - weather
+  - props
+
+references:
+  front:
+    path: null
+    sha256: null
+    approved: false
+
+  three_quarter:
+    path: null
+    sha256: null
+    approved: false
+
+  profile:
+    path: null
+    sha256: null
+    approved: false
+
+  full_body:
+    path: null
+    sha256: null
+    approved: false
+
+generation_policy:
+  canonical_reference_required: true
+  reference_chaining_allowed: false
+  generated_scene_as_identity_reference_allowed: false
+  previous_episode_frame_as_identity_reference_allowed: false
+  text_only_generation_after_approval_allowed: false
+  preserve_identity_exactly: true
+
+qa_policy:
+  facial_drift: "REJECT"
+  age_drift: "REJECT"
+  skin_tone_drift: "REJECT"
+  uncontrolled_hair_drift: "REJECT"
+  body_identity_drift: "REJECT"
+  cross_character_drift: "REJECT"
+  uncertain_identity: "REVIEW"

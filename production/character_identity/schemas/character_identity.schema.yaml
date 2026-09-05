@@ -1,0 +1,23 @@
+schema_version: "1.0"
+
+statuses:
+  - REFERENCE_PENDING
+  - REVIEW
+  - APPROVED
+  - RETIRED
+
+required_reference_views:
+  - front
+  - three_quarter
+  - profile
+  - full_body
+
+hash_algorithm: "sha256"
+
+rules:
+  canonical_master_required: true
+  text_only_after_approval: false
+  generated_frame_as_master_reference: false
+  previous_episode_frame_as_master_reference: false
+  reference_chaining: false
+  identity_validation_required: true
