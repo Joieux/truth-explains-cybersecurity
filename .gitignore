@@ -1,22 +1,48 @@
 
+# macOS and local tooling
 .DS_Store
-
 .AppleDouble
 .LSOverride
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
 .~lock.*
-*.dmg
-*.zip
-truth-explains-cybersecurity/
-renders/
+
+# Local production-media directories
 audio/
 clips/
+renders/
 assets/music/
-*.mp4
-*.mov
-*.wav
+**/02_beats/
+**/04_still_images/
+**/05_runway_clips/
+**/06_voiceover/
+
+# Production binaries belong in the external media library
+*.3gp
+*.aac
 *.aiff
+*.aup3
+*.avi
+*.caf
+*.dmg
+*.dra
+*.drp
+*.flac
+*.m4a
+*.m4v
+*.mkv
+*.mov
 *.mp3
+*.mp4
+*.mpeg
+*.mpg
+*.ogg
+*.prproj
+*.wav
+*.webm
+*.wma
+*.wmv
 *.zip
-.~lock.*
