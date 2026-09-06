@@ -2,7 +2,16 @@ character_id: "malik"
 display_name: "Malik"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/malik/identity/master/Malik.png"
+  sha256: "1721af5fa1325d93408441c92d47fea2fbdf8f51c6a23a6ea814a78c378b1fb7"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

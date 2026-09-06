@@ -2,7 +2,16 @@ character_id: "aurora"
 display_name: "Aunt Truth / Aurora Reid"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/aurora/identity/master/auntie_truth_ref_v2.jpg"
+  sha256: "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

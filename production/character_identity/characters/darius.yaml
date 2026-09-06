@@ -2,7 +2,16 @@ character_id: "darius"
 display_name: "Darius"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/darius/identity/master/Darius.png"
+  sha256: "c625e08f6832ff5d4d64908d67980f84fe0d526de5c92023364c5ca4dedcc80b"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

@@ -2,7 +2,16 @@ character_id: "zuri"
 display_name: "Zuri"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/zuri/identity/master/Zuri.png"
+  sha256: "f4e8f9b5ac7cf0fbd46b4007d17ffdf2789319e075f0168af6a9ce2f1fde3cd5"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

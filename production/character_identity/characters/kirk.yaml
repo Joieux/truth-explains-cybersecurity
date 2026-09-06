@@ -2,7 +2,16 @@ character_id: "kirk"
 display_name: "Kirk"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/kirk/identity/master/Kirk.png"
+  sha256: "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53c2bdde03d851f07fe"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

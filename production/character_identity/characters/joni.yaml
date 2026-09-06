@@ -2,7 +2,16 @@ character_id: "joni"
 display_name: "Joni"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/joni/identity/master/Joni.png"
+  sha256: "e93f54df02f24c2ed0466b6db328a442b5420d93feec7c26effd4fcbc85eb1eb"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

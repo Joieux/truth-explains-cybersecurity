@@ -248,3 +248,22 @@ Reference-sheet typography is not canonical scene content.
 - Malik's jacket symbol is an approved identity mark when that wardrobe variant is used.
 
 Reference sheets define character identity, appearance, proportions, styling, wardrobe cues, accessories, and visual personality. They are not scene copy decks.
+
+## Multi-view master sheets
+
+An approved character reference sheet may serve as the canonical master
+identity package when it contains sufficient visual information to preserve
+the character consistently across production.
+
+A multi-view master sheet may satisfy the required identity-view coverage
+without requiring separate standalone image files for every angle.
+
+Additional dedicated views should be created only when a production model or
+scene requires identity information that the approved master sheet does not
+represent reliably.
+
+The approved master sheet remains the identity source of truth. Generated
+episode frames, video frames, or later model outputs must never replace it.
+
+Reference-sheet typography remains non-canonical scene content under the
+reference-sheet text and signage policy.

@@ -2,7 +2,16 @@ character_id: "nia"
 display_name: "Nia"
 
 identity_version: "1.0"
-status: "REFERENCE_PENDING"
+status: "APPROVED"
+
+canonical_master_reference:
+  package_type: "MULTI_VIEW_MASTER_SHEET"
+  path: "characters/nia/identity/master/Nia.png"
+  sha256: "54ece4ec86ab086fc44a0cb29c4e6e3ebd5a881238675ecc4e5087fa02851a30"
+  approved: true
+  identity_version: "1.0"
+  view_coverage: "MASTER_SHEET"
+  identity_source_of_truth: true
 
 canonical_media_library: "~/Documents/Codex/truth-explains-media"
 

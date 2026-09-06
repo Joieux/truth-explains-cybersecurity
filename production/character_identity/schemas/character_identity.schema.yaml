@@ -29,3 +29,10 @@ reference_sheet_text_policy:
   signage_default: "OMIT_UNLESS_SCRIPT_REQUIRED"
   invented_scene_text_allowed: false
   approved_identity_symbols_allowed: true
+
+canonical_master_reference_policy:
+  multi_view_master_sheet_allowed: true
+  standalone_view_files_always_required: false
+  master_sheet_may_satisfy_view_coverage: true
+  sha256_required_for_approved_master: true
+  generated_scene_may_replace_master: false
