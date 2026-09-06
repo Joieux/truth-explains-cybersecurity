@@ -46,3 +46,6 @@ assets/music/
 *.wma
 *.wmv
 *.zip
+
+# Local secrets
+.env.local
