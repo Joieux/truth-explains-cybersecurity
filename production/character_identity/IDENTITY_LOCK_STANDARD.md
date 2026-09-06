@@ -233,3 +233,18 @@ The external canonical media library stores:
 - approved production assets
 
 Production media does not belong in normal Git history.
+
+
+## Reference-sheet text and signage policy
+
+Reference-sheet typography is not canonical scene content.
+
+- Do not reproduce incidental readable text from character reference sheets.
+- Omit slogans, labels, book titles, laptop text, screen text, mug text, posters, signs, and decorative typography unless the script explicitly requires them.
+- Do not invent readable scene text merely because text appears on a reference sheet.
+- Prefer clean visual surfaces and minimal signage.
+- Required readable text must be intentional and story-driven.
+- Approved non-text identity symbols may carry forward when explicitly recorded in the character manifest.
+- Malik's jacket symbol is an approved identity mark when that wardrobe variant is used.
+
+Reference sheets define character identity, appearance, proportions, styling, wardrobe cues, accessories, and visual personality. They are not scene copy decks.

@@ -21,3 +21,11 @@ rules:
   previous_episode_frame_as_master_reference: false
   reference_chaining: false
   identity_validation_required: true
+
+
+reference_sheet_text_policy:
+  incidental_text_is_identity: false
+  readable_text_default: "OMIT_UNLESS_SCRIPT_REQUIRED"
+  signage_default: "OMIT_UNLESS_SCRIPT_REQUIRED"
+  invented_scene_text_allowed: false
+  approved_identity_symbols_allowed: true

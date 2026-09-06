@@ -83,3 +83,15 @@ qa_policy:
   body_identity_drift: "REJECT"
   cross_character_drift: "REJECT"
   uncertain_identity: "REVIEW"
+
+
+scene_text_policy:
+  reference_sheet_text_is_canonical: false
+  readable_text_default: "OMIT_UNLESS_SCRIPT_REQUIRED"
+  signage_default: "OMIT_UNLESS_SCRIPT_REQUIRED"
+  copy_reference_typography: false
+  invented_readable_text_allowed: false
+
+
+approved_identity_symbols:
+  - jacket_symbol

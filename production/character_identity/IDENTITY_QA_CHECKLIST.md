@@ -54,3 +54,13 @@
 - [ ] REJECT
 
 Rejected material must never become identity-reference material.
+
+
+## Text and signage
+
+- [ ] Incidental reference-sheet text was not copied into the scene.
+- [ ] Clothing, books, laptops, mugs, posters, signs, and screens contain no unnecessary readable text.
+- [ ] Any required readable text is intentional and script-driven.
+- [ ] No unnecessary signage was introduced.
+- [ ] Approved identity symbols remain consistent.
+- [ ] Malik's jacket symbol may remain when that approved wardrobe variant is used.
