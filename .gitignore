@@ -49,3 +49,13 @@ assets/music/
 
 # Local secrets
 .env.local
+
+# Episode Producer local runtime
+agents/episode_producer/.venv/
+episodes/ep03/production/
+
+# Python package metadata
+*.egg-info/
+
+# Local code backup snapshots
+archive/code_backups/

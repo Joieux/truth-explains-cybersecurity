@@ -1,0 +1,29 @@
+{
+  "episode": "epXX",
+  "title": "",
+  "stage": "INTAKE",
+  "gates": {
+    "script": "PENDING",
+    "factual_accuracy": "PENDING",
+    "narration": "PENDING",
+    "paid_tts_preflight": "PENDING",
+    "media_generation": "PENDING",
+    "final_release": "PENDING"
+  },
+  "artifacts": {},
+  "paid_generation": {
+    "authorized": false,
+    "requests": []
+  },
+  "platforms": {
+    "youtube": {
+      "status": "PENDING"
+    },
+    "tiktok": {
+      "status": "PENDING"
+    },
+    "instagram": {
+      "status": "PENDING"
+    }
+  }
+}

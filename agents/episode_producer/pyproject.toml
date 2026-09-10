@@ -1,0 +1,15 @@
+[project]
+name = "truth-explains-episode-producer"
+version = "0.1.0"
+description = "Multi-agent episode production pipeline for Truth Explains Cybersecurity"
+requires-python = ">=3.11"
+dependencies = [
+  "openai-agents>=0.2.0",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.setuptools]
+py-modules = ["agent", "main"]

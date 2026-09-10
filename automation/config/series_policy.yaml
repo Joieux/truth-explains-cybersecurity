@@ -1,0 +1,14 @@
+series: Truth Explains Cybersecurity
+narrator: Aurora Reid / Aunt Truth
+production_mode: narration_first
+principles:
+  - Correct the cybersecurity claim, not the character.
+  - Recurring characters always use immutable canonical master references.
+  - Never use a generated frame as an identity reference.
+  - No paid generation for exploration, prompt testing, ambiguity resolution, or locally solvable QA.
+  - Locked narration is the master clock.
+  - Readable text is compositor-authored unless explicitly approved otherwise.
+  - Aunt Truth is storyteller, not default visual subject.
+release:
+  auto_publish: false
+  human_final_release_approval_required: true

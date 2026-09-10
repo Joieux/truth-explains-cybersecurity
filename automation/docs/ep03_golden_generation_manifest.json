@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "manifest_type": "generation_ready_shot_manifest",
+  "series": "Truth Explains Cybersecurity",
+  "episode": "EP03",
+  "title": "Two Factor Authentication, Without the Confusion",
+  "status": "GENERATION_READY",
+  "timing_authority": "recorded Aurora narration",
+  "runtime_seconds": 176.472,
+  "narration_audio_sha256": "2a9a87a69f8ddd6b6ee8a3d79ee2d88d47ceb20e540224cc96c59d408667c7c5",
+  "source_locks": {
+    "timing_master_status": "PASS",
+    "visual_plan": "APPROVED_SOURCE_AS_PROVIDED",
+    "old_06_04_timeline": "SUPERSEDED",
+    "narration_may_be_regenerated_or_sped_up": false
+  },
+  "global_generation_rules": {
+    "zero_waste": "No paid generation for exploration, prompt testing, ambiguity resolution, or locally solvable QA.",
+    "identity": "Recurring characters always use the canonical master directly; never use a prior generated frame as identity authority.",
+    "text": "Readable text is compositor-authored unless a shot explicitly says otherwise; do not ask image generation to render incidental lettering.",
+    "npc": "Anonymous scammer coverage remains non-identifying; no VISITOR-01 identity is created.",
+    "lighting": "Warm, readable, mid-to-bright presentation; EP03 blue is a restrained accent.",
+    "narration": "Aurora's locked 176.472-second recording is the master clock."
+  },
+  "paid_generation_summary": {
+    "shots_requiring_paid_generation": 21,
+    "shots_not_requiring_paid_generation": 7,
+    "local_only_shots": [
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S012",
+      "S019",
+      "S022"
+    ],
+    "note": "A paid-required shot may contain multiple sequential plates per the approved prompt. This boolean means the shot needs at least one paid generative visual asset; it is not a count of API calls."
+  },
+  "shots": [
+    {
+      "shot_id": "S001",
+      "beat_id": "B01",
+      "title": "The promise",
+      "timing": {
+        "start": "00:00.00",
+        "end": "00:07.62",
+        "start_seconds": 0.0,
+        "end_seconds": 7.625,
+        "duration_seconds": 7.625,
+        "timing_flag": "OK"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Reconnect through direct address and introduce the key motif.",
+      "subject_action": "Aurora speaks warmly to the viewer; one restrained gesture beside a plain house key.",
+      "environment": "Warm, mid-to-bright home-table setting.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "aurora",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/aurora/identity/master/auntie_truth_ref_v2.jpg",
+            "sha256": "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**A**, directly supplied to every image/video job."
+      },
+      "final_image_prompt": "Established Truth Explains animation styling. Aurora at her home table, eye-level medium close-up, patient welcoming expression, canonical appearance preserved. Plain house key resting near her hand. Warm readable indoor exposure, uncluttered background, clean unlettered surfaces, restrained composition.",
+      "final_motion_prompt": "Very slow settling push. Natural breathing and a small conversational gesture; synchronize visible speech to the approved recording only. Finish with a usable key-prop composition for the next cut.",
+      "continuity_dependencies": "Establish Aurora’s table, light direction, and camera height. **S026** is the later Aurora composition counterpart. S002 receives a prop match cut, not an identity reference.",
+      "readable_text_requirements": "**NONE**, excluding separately authored narration captions.",
+      "negative_constraints": "No presenter graphics, invented speech, large gestures, incidental mug/book/clothing text, or glamorized key.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S002",
+      "beat_id": "B02",
+      "title": "A password has escaped",
+      "timing": {
+        "start": "00:07.62",
+        "end": "00:13.98",
+        "start_seconds": 7.625,
+        "end_seconds": 13.982,
+        "duration_seconds": 6.357,
+        "timing_flag": "OK"
+      },
+      "shot_class": "NPC",
+      "objective": "Represent a stolen credential without attack-process imagery.",
+      "subject_action": "Anonymous hand separates a copied key from its matching original.",
+      "environment": "Plain, bright tabletop.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; anonymous cropped hand only."
+      },
+      "final_image_prompt": "Overhead close-up in established series styling: two matching ordinary house keys on a clean warm-neutral tabletop, one anonymous hand poised beside the duplicate. Bright soft indoor light, simple tactile objects, no identifying person or written markings.",
+      "final_motion_prompt": "Locked camera. One deliberate hand movement separates the duplicate; hold the resulting distance. Match cut the duplicate into the doorway view.",
+      "continuity_dependencies": "Key design matches S001 and continues into S003–S004. Anonymous sleeve may support local scene continuity without establishing a recurring identity.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No identifiable attacker, key-cutting tutorial, breach dashboard, credential list, or magical copying effect.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S003",
+      "beat_id": "B03",
+      "title": "At the front door",
+      "timing": {
+        "start": "00:13.98",
+        "end": "00:18.81",
+        "start_seconds": 13.982,
+        "end_seconds": 18.809,
+        "duration_seconds": 4.826,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "NPC",
+      "objective": "Establish the copied key’s first requirement.",
+      "subject_action": "Anonymous forearm raises the copied key toward the lower lock.",
+      "environment": "Normally lit residential hallway.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; cropped forearm/partial silhouette, no identifiable face."
+      },
+      "final_image_prompt": "Tight three-quarter exterior view of an ordinary residential door with a lower keyed lock and separate upper deadbolt. Anonymous cropped hand holding the copied key near the lower keyway. Warm mid-to-bright hallway light, clear lock geometry, no door number or signage.",
+      "final_motion_prompt": "Subtle forward drift. Hand approaches the lower keyway slowly; end before insertion for a clean closer cut.",
+      "continuity_dependencies": "Establish the door geometry used in S004–S006, S018, S020, S023, and S025.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No ominous silhouette, weapon, face reveal, key in upper lock, or dim thriller lighting.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S004",
+      "beat_id": "B04",
+      "title": "The first lock turns",
+      "timing": {
+        "start": "00:18.81",
+        "end": "00:21.72",
+        "start_seconds": 18.809,
+        "end_seconds": 21.718,
+        "duration_seconds": 2.909,
+        "timing_flag": "TIGHT — simple visual only"
+      },
+      "shot_class": "NPC",
+      "objective": "Make successful first-lock operation and continued denial distinguishable.",
+      "subject_action": "Key inserts and turns; handle moves; door remains shut.",
+      "environment": "Same exterior door detail.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; anonymous hand."
+      },
+      "final_image_prompt": "Close exterior detail of the established lower door lock and handle, copied key aligned with keyway, anonymous hand correctly posed, door fully closed. Warm readable light; precise ordinary household hardware.",
+      "final_motion_prompt": "Locked view. Stage insertion, completed key turn, then handle movement as separate actions. Lower lock operates successfully; upper deadbolt keeps the door closed. Hold the still-closed door through the narration’s pauses.",
+      "continuity_dependencies": "Continue S003 hand/key orientation. The closed-door result motivates S005’s explanatory cutaway.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No forced entry, opening gap suggesting passage, broken key, simultaneous ambiguous actions, or exaggerated impact.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S005",
+      "beat_id": "B05",
+      "title": "Independent second lock",
+      "timing": {
+        "start": "00:21.72",
+        "end": "00:28.60",
+        "start_seconds": 21.718,
+        "end_seconds": 28.604,
+        "duration_seconds": 6.886,
+        "timing_flag": "OK"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Explain the unmet independent requirement.",
+      "subject_action": "Cutaway reveals released lower latch and still-extended upper bolt.",
+      "environment": "Clean explanatory view of the established door.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Simple series-style door-edge explanatory cutaway of the established household door. Lower latch released, upper deadbolt visibly extended into its strike. Separate hardware clearly readable; restrained diagram treatment within warm, bright domestic context.",
+      "final_motion_prompt": "Slow upward move from lower mechanism to upper bolt. Fade in the cutaway as an explanatory overlay; keep the upper bolt engaged.",
+      "continuity_dependencies": "Preserve S003–S004 door geometry and lock states. Return to intact exterior view in S006.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No biometric-only deadbolt claim, second password illustration, repeated key trials, x-ray spectacle, or linked mechanisms.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S006",
+      "beat_id": "B06",
+      "title": "A person in a hallway",
+      "timing": {
+        "start": "00:28.60",
+        "end": "00:34.97",
+        "start_seconds": 28.604,
+        "end_seconds": 34.972,
+        "duration_seconds": 6.368,
+        "timing_flag": "OK"
+      },
+      "shot_class": "NPC",
+      "objective": "Land the metaphor’s calm, humorous payoff.",
+      "subject_action": "Anonymous cropped figure lowers the key and remains outside.",
+      "environment": "Same bright hallway.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; non-identifying figure."
+      },
+      "final_image_prompt": "Wider established residential hallway composition, ordinary door firmly closed, anonymous figure cropped to avoid recognizable face, key hand lowered. Quiet everyday atmosphere, warm readable exposure, clear empty space for a short composited title.",
+      "final_motion_prompt": "Static camera. Small hand-lowering action, followed by an unhurried hold. Fade in title; dissolve toward the factor graphic.",
+      "continuity_dependencies": "Same door and copied key as S003–S005; no persistent scammer identity.",
+      "readable_text_requirements": "**“Two-factor authentication”**, compositor only.",
+      "negative_constraints": "No humiliation gag, attacker escape story, triumphant shield, or immunity implication.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S007",
+      "beat_id": "B07",
+      "title": "Different kinds of proof",
+      "timing": {
+        "start": "00:34.97",
+        "end": "00:38.47",
+        "start_seconds": 34.972,
+        "end_seconds": 38.472,
+        "duration_seconds": 3.5,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Show two unlike requirements, not two passwords.",
+      "subject_action": "Two requirement spaces receive distinct category symbols.",
+      "environment": "Spacious graphic field.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Clean flat explanatory layout in established series graphic styling, warm charcoal field, two large empty requirement spaces and three simple category-symbol assets: masked password, device, abstract fingerprint. Generous whitespace, sparse blue emphasis, no generated lettering.",
+      "final_motion_prompt": "Reveal the two spaces first. Place password and device symbols into separate spaces; leave the third category as an alternative, not a third compulsory requirement. Isolate the password symbol for the next shot.",
+      "continuity_dependencies": "Category assets carry into S008–S010. Shapes and placement remain consistent.",
+      "readable_text_requirements": "**“Two different kinds of proof.”**",
+      "negative_constraints": "No three-factor mandate, duplicate passwords satisfying both slots, cluttered icon cloud, or rapid movement.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S008",
+      "beat_id": "B08",
+      "title": "Something you know",
+      "timing": {
+        "start": "00:38.47",
+        "end": "00:41.57",
+        "start_seconds": 38.472,
+        "end_seconds": 41.572,
+        "duration_seconds": 3.1,
+        "timing_flag": "TIGHT — simple visual only"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Identify the knowledge factor.",
+      "subject_action": "Masked password field fills and holds.",
+      "environment": "Same graphic system.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Single large blank password-field plate in the established uncluttered graphic layout, soft-cream visual elements on warm charcoal, subtle key-shaped framing, ample negative space. No actual text or password.",
+      "final_motion_prompt": "Composite a short sequence of masking dots. Keep labels stable and hold the completed field; dissolve to possession objects.",
+      "continuity_dependencies": "Use S007’s knowledge symbol and graphic proportions.",
+      "readable_text_requirements": "**“Know”**, **“Password”**; masking dots only inside field.",
+      "negative_constraints": "No readable password, lengthy typing, multiple passwords presented as MFA, or decorative security dashboard.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S009",
+      "beat_id": "B09",
+      "title": "Something you have",
+      "timing": {
+        "start": "00:41.57",
+        "end": "00:45.09",
+        "start_seconds": 41.572,
+        "end_seconds": 45.088,
+        "duration_seconds": 3.516,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Group possession examples under one factor category.",
+      "subject_action": "Phone, app on that phone, and small hardware key appear sequentially.",
+      "environment": "Warm, bright tabletop with controlled overlay.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Series-style tabletop object study: ordinary smartphone with clean blank screen and small unbranded hardware security key, warm mid-to-bright light, sparse blue phone-case accent. Clear separation and space for one shared category label.",
+      "final_motion_prompt": "Gentle lateral move. Introduce phone, emphasize the app within that same device, then introduce hardware key. Group all under one shared possession category.",
+      "continuity_dependencies": "Graphic grouping matches S007. Phone is an illustrative object, not yet a Kirk identity shot.",
+      "readable_text_requirements": "**“Have.”**",
+      "negative_constraints": "No three separate factor badges, carrier-delivery implication for app codes, or branded hardware.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S010",
+      "beat_id": "B10",
+      "title": "Something you are",
+      "timing": {
+        "start": "00:45.09",
+        "end": "00:50.84",
+        "start_seconds": 45.088,
+        "end_seconds": 50.84,
+        "duration_seconds": 5.753,
+        "timing_flag": "OK"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Complete the categories and preserve the qualified protection claim.",
+      "subject_action": "Abstract face/fingerprint symbols; stolen knowledge proof leaves the other requirement unmet.",
+      "environment": "Established graphic field.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; abstract symbols only."
+      },
+      "final_image_prompt": "Simple abstract face outline and fingerprint symbol in the established series graphic layout, paired requirement spaces, clean soft-cream shapes, restrained blue emphasis. No identifiable portrait or biometric scan interface.",
+      "final_motion_prompt": "Reveal the biometric category. Return to the two-requirement diagram; move the knowledge symbol outside the owner grouping while the independent requirement remains unsatisfied. Hold, then cut to Aurora.",
+      "continuity_dependencies": "Reuse S007–S009’s controlled graphic assets; this is an example of protection, not a universal outcome.",
+      "readable_text_requirements": "**“Are.”**",
+      "negative_constraints": "No new character face, biometric database, guarantee badge, or suggestion all biometrics are automatically phishing-resistant.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S011",
+      "beat_id": "B11",
+      "title": "No fairy tale",
+      "timing": {
+        "start": "00:50.84",
+        "end": "00:56.24",
+        "start_seconds": 50.84,
+        "end_seconds": 56.238,
+        "duration_seconds": 5.398,
+        "timing_flag": "OK"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Deliver the personal qualification without alarmism.",
+      "subject_action": "Aurora gives a candid, patient aside.",
+      "environment": "Established home table.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "aurora",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/aurora/identity/master/auntie_truth_ref_v2.jpg",
+            "sha256": "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**A**, directly supplied."
+      },
+      "final_image_prompt": "Aurora in the established warm home-table setting, eye-level medium close-up, candid reassuring expression, exact canonical identity and appearance. Mid-to-bright exposure, uncluttered unlettered props.",
+      "final_motion_prompt": "Static camera. Natural pause and restrained expression change; synchronize speaking to locked narration. Cut to phones after the final qualification.",
+      "continuity_dependencies": "Match S001’s table, wardrobe, light direction, and lens relationship.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No scolding gesture, ominous lighting shift, corporate presenter treatment, or exaggerated worry.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S012",
+      "beat_id": "B12",
+      "title": "SMS and SIM swap",
+      "timing": {
+        "start": "00:56.24",
+        "end": "01:06.09",
+        "start_seconds": 56.238,
+        "end_seconds": 66.095,
+        "duration_seconds": 9.857,
+        "timing_flag": "OK"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Show carrier reassignment rather than whole-device copying.",
+      "subject_action": "A number-routing marker moves from owner phone to scammer phone through a carrier node.",
+      "environment": "Clean three-part explanatory diagram.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; optional anonymous hand beside the receiving phone only."
+      },
+      "final_image_prompt": "Clear series-style diagram assets: two ordinary unbranded phones, one neutral carrier-routing node, blank display areas and spacious connecting paths. Warm readable treatment, sparse blue emphasis. Any receiving hand is anonymous and cropped.",
+      "final_motion_prompt": "Establish normal text delivery to the owner’s phone. Introduce carrier reassignment, then redirect the number’s delivery path to the other phone. Use sequential emphasis rather than simultaneous flashing panels.",
+      "continuity_dependencies": "Carry the redirected delivery state into the opening of S013. Do not assign these diagram phones a new recurring owner.",
+      "readable_text_requirements": "**“Your phone”**, **“Phone company”**, **“Their phone”**, **“SIM swap.”**",
+      "negative_constraints": "No copied photos/apps/contacts, acted scam-call dialogue, attack instructions, or depiction of SMS as worthless.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S013",
+      "beat_id": "B13",
+      "title": "Local authenticator codes",
+      "timing": {
+        "start": "01:06.09",
+        "end": "01:18.54",
+        "start_seconds": 66.095,
+        "end_seconds": 78.54,
+        "duration_seconds": 12.445,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Distinguish on-device code generation from redirected SMS delivery.",
+      "subject_action": "Finish the SMS consequence, then introduce Kirk and his authenticator app.",
+      "environment": "Brief graphic continuation, followed by Kirk’s warm, bright desk.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K** for all Kirk-bearing views, including over-shoulder/hands coverage."
+      },
+      "final_image_prompt": "Generate sequential plates, not a collage: brief continuation of the two-phone routing diagram; then Kirk at a practical bright home desk in medium profile; then over-shoulder smartphone detail. Preserve Kirk’s canonical identity and appearance. Laptop centered, phone at right, clean blank screens, sparse blue prop accent.",
+      "final_motion_prompt": "Complete redirected SMS delivery first. Cut to Kirk, then his app. Composite the demo code appearing locally without an incoming-message animation. Hold it clearly and continue the same device state into S014.",
+      "continuity_dependencies": "Establish Kirk’s desk, phone, orientation, and appearance for S014, S015, S021, S027, and S028.",
+      "readable_text_requirements": "**“Authenticator app”**, demo code **`482 619`**; existing S012 labels only during its continuation.",
+      "negative_constraints": "No claim of phishing immunity, incoming-SMS sound for the app, carrier path feeding the app code, or generated screen lettering.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S014",
+      "beat_id": "B14",
+      "title": "A code can still be relayed",
+      "timing": {
+        "start": "01:18.54",
+        "end": "01:30.36",
+        "start_seconds": 78.54,
+        "end_seconds": 90.362,
+        "duration_seconds": 11.823,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Explain OTP phishing through a readable, non-operational causal sequence.",
+      "subject_action": "Kirk supplies the app code to a fake page; that code is relayed immediately and accepted by the real service while valid.",
+      "environment": "Kirk’s desk inserts and controlled explanatory panels.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K** directly for all character-bearing plates and animation."
+      },
+      "final_image_prompt": "Sequential series-style desk and interface plates: Kirk’s canonical hand beside his laptop and phone; large blank browser panel; separate clean explanatory real-service panel. Same bright desk and device geometry as established. Keep interface surfaces blank for deterministic compositing.",
+      "final_motion_prompt": "0–4s establish fake page and already-supplied first-factor context; 4–10s enter the displayed demo code; at completion begin relay immediately; 10–17s show transfer to the real-service panel; 17–21s show acceptance there; 21–24s show applicability to app and text codes. The owner is not shown safely signed into the genuine service.",
+      "continuity_dependencies": "Same fictional OTP as S013. Explanatory labels sit outside the fake page. A masked completed password field supplies prior-factor context without reenacting theft.",
+      "readable_text_requirements": "**“Fake sign-in page”**, **“Real site”**, **“Code accepted”**, **`482 619`**, **“App codes / Text codes.”**",
+      "negative_constraints": "No phishing deployment details, live domain, captured password display, attacker tutorial, delayed-code success after expiry, or conversational murmur.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S015",
+      "beat_id": "B15",
+      "title": "Bound to the real site",
+      "timing": {
+        "start": "01:30.36",
+        "end": "01:41.09",
+        "start_seconds": 90.362,
+        "end_seconds": 101.088,
+        "duration_seconds": 10.726,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Explain phishing resistance as site binding.",
+      "subject_action": "Passkey and FIDO2 alternatives; genuine-site match versus look-alike mismatch.",
+      "environment": "Kirk device detail transitioning to large explanatory panels.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K** wherever Kirk or his hands appear."
+      },
+      "final_image_prompt": "Kirk’s established desk and device detail, with a separate unbranded FIDO2 security-key object plate. Clean paired blank site panels for compositing, equal visual polish on both panels, spacious series graphic layout. Warm readable exposure, sparse blue emphasis.",
+      "final_motion_prompt": "0–7s introduce passkey and FIDO2 key as alternatives; 7–14s show the genuine-site credential binding; 14–21s show that the look-alike cannot obtain a usable response for that genuine-site credential; 21–24s hold the mismatch. Connection represents authentication, not export of a private key.",
+      "continuity_dependencies": "Maintain S013–S014 desk geometry. Genuine/look-alike labels are educational overlays; the cause is the authenticated site, not appearance.",
+      "readable_text_requirements": "**“Passkey”**, **“FIDO2 security key”**, **“Real site”**, **“Look-alike.”**",
+      "negative_constraints": "No transferable OTP animation, universal browser scam detector, ugly-fake/pretty-real distinction, exposed private key, or requirement to use both options together.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S016",
+      "beat_id": "B16",
+      "title": "Stronger, not invincible",
+      "timing": {
+        "start": "01:41.09",
+        "end": "01:48.21",
+        "start_seconds": 101.088,
+        "end_seconds": 108.214,
+        "duration_seconds": 7.125,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Show a password-replacing passkey route and qualify the vault metaphor.",
+      "subject_action": "Passkey sign-in illustration dissolves into a restrained vault-door image.",
+      "environment": "Graphic interface, then evenly lit metaphor plate.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Two sequential plates in established series styling: clean blank passwordless sign-in layout; frontal simple vault door with restrained physical weight, evenly lit and readable, no dramatic darkness, logos, or decorative controls.",
+      "final_motion_prompt": "Present passkey route without a preceding password field. Simple confirmation, then slow dissolve to vault metaphor. Hold the qualification clearly.",
+      "continuity_dependencies": "Continue S015’s passkey option. Vault imagery is limited to this explicitly narrated metaphor; it does not redefine the ordinary door.",
+      "readable_text_requirements": "**“Passkey”**, **“Stronger. Not invincible.”**",
+      "negative_constraints": "No mandatory password-first sequence, permanent-immunity badge, explosive locking sequence, or invincible fortress.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S017",
+      "beat_id": "B17",
+      "title": "Do not get overwhelmed",
+      "timing": {
+        "start": "01:48.21",
+        "end": "01:52.91",
+        "start_seconds": 108.214,
+        "end_seconds": 112.912,
+        "duration_seconds": 4.698,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Restore emotional footing after the technical comparison.",
+      "subject_action": "Aurora reassures the viewer with a small open-hand gesture.",
+      "environment": "Established home table.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "aurora",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/aurora/identity/master/auntie_truth_ref_v2.jpg",
+            "sha256": "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**A**, directly supplied."
+      },
+      "final_image_prompt": "Aurora at the established home table, eye-level medium close-up, patient reassuring expression, canonical identity and appearance unchanged. Warm mid-to-bright light, simple unlettered surroundings.",
+      "final_motion_prompt": "Gentle settling move, minimal open-hand gesture, natural pause. Use locked narration for visible speech; cut to ordinary-door explanation.",
+      "continuity_dependencies": "Match S001 and S011; do not import vault lighting or props.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No anxious montage, rapid options carousel, lecturing posture, or exaggerated facial animation.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S018",
+      "beat_id": "B18",
+      "title": "A harder target",
+      "timing": {
+        "start": "01:52.91",
+        "end": "02:00.00",
+        "start_seconds": 112.912,
+        "end_seconds": 120.001,
+        "duration_seconds": 7.089,
+        "timing_flag": "OK"
+      },
+      "shot_class": "ENVIRONMENT",
+      "objective": "Support the voice-locked increased-difficulty claim.",
+      "subject_action": "Copied key satisfies the lower lock while the independent upper requirement remains.",
+      "environment": "Established ordinary door and simple overlay.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Medium detail of the established ordinary household door, lower keyed lock and distinct upper deadbolt clearly visible, copied key at lower lock, simple empty overlay positions for two requirements. Warm readable residential light, no person needed.",
+      "final_motion_prompt": "One measured explanatory sequence: lower requirement satisfied, upper requirement still unmet. Slow emphasis toward the upper bolt. Match cut the key motif into email recovery.",
+      "continuity_dependencies": "Reuse S003–S005 geometry. Overlay is a conceptual demonstration, not a status report on the viewer’s account.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No universal scammer abandonment, literal fishing spectacle, invulnerability shield, or vault conversion.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S019",
+      "beat_id": "B19",
+      "title": "Email first",
+      "timing": {
+        "start": "02:00.00",
+        "end": "02:09.68",
+        "start_seconds": 120.001,
+        "end_seconds": 129.685,
+        "duration_seconds": 9.684,
+        "timing_flag": "OK"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Explain email’s recovery importance without claiming universal access.",
+      "subject_action": "Several accounts send reset-link messages to an email inbox.",
+      "environment": "Spacious series graphic layout.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Clean graphic plate with a central email-inbox symbol and three separated everyday-account symbols, generous whitespace, blank message cards, soft-cream shapes on warm charcoal. Restrained blue emphasis on email, no logos or interface clutter.",
+      "final_motion_prompt": "Reveal email first. Introduce a limited set of account connections sequentially; animate reset-link message cards traveling from accounts to the inbox. Hold the recovery relationship.",
+      "continuity_dependencies": "Key metaphor transitions into recovery relationships; S020 returns to the domestic prop.",
+      "readable_text_requirements": "**“Email”**, **“Reset link.”**",
+      "negative_constraints": "No arrows suggesting email automatically signs into every account, no real reset links, endless account web, or notification barrage.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S020",
+      "beat_id": "B20",
+      "title": "Guard the key ring",
+      "timing": {
+        "start": "02:09.68",
+        "end": "02:14.20",
+        "start_seconds": 129.685,
+        "end_seconds": 134.204,
+        "duration_seconds": 4.519,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "ENVIRONMENT",
+      "objective": "Connect email protection to the familiar household metaphor.",
+      "subject_action": "Key ring settles inside the home; ordinary upper deadbolt closes.",
+      "environment": "Warm interior beside the established door.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**; no visible hand required."
+      },
+      "final_image_prompt": "Sequential close plates: ordinary key ring just settling on a small interior entry surface; inside door-edge detail of the established household deadbolt. Warm mid-to-bright domestic exposure, simple unmarked props, no vault hardware.",
+      "final_motion_prompt": "Begin with the ring completing a placement from off-frame. Cut to one calm upper-bolt movement. Preserve ordinary household scale and motion.",
+      "continuity_dependencies": "Interior reverse of the established door must preserve lower/upper hardware geometry. Cut to Kirk’s genuine account settings.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No floating key ring, unknown recurring hand identity, vault mechanism, heavy industrial lock sequence, or guaranteed protection of every account.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S021",
+      "beat_id": "B21",
+      "title": "Turn it on: email",
+      "timing": {
+        "start": "02:14.20",
+        "end": "02:25.17",
+        "start_seconds": 134.204,
+        "end_seconds": 145.171,
+        "duration_seconds": 10.967,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Show a bounded, readable enrollment example without unauthorized voice-over.",
+      "subject_action": "Kirk selects an authenticator method, completes illustrated setup, verifies a code, then sees activation and a recovery reminder.",
+      "environment": "Kirk’s established desk; legible sequential laptop/phone inserts.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K** directly, including all hands-only jobs."
+      },
+      "final_image_prompt": "Sequential clean plates of Kirk’s canonical hands at his established laptop and portrait phone, warm bright home desk, correct device positions and plausible hand poses. Screens blank for composited security-settings states. Close framing sufficient for large readable interface controls; no QR code or secret.",
+      "final_motion_prompt": "0–5s: ‘Email today,’ then Security → Two-factor authentication → Authenticator app selection. 5–11s: simplified service setup and app add-account sequence, with secret-bearing transfer explicitly omitted from the illustration. 11–18s: enter fictional app verification code and select Verify on the genuine service. 18–24s: show successful activation, then acknowledge the recovery-code storage step without displaying codes. No new speech.",
+      "continuity_dependencies": "Same Kirk, desk, laptop, phone, and handedness as S013–S015. Use a separate fictional enrollment code, **`731 084`**. This example occurs on the genuine service, not the S014 fake page.",
+      "readable_text_requirements": "**“Example — steps vary by service”**; sequential UI copy: **“Security”**, **“Two-factor authentication”**, **“Authenticator app”**, **“Add account”**, **“Setup details omitted”**, **`731 084`**, **“Verify”**, **“On”**, **“Save recovery codes.”** Do not display the full copy list at once. “Setup details omitted” identifies the deliberate schematic omission; it is not a button.",
+      "negative_constraints": "No ‘On’ before successful verification; no unexplained preconfigured app; no working enrollment artifact; no real recovery codes; no claim that this is a provider-exact click-by-click walkthrough; no silent hold filled with invented narration.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S022",
+      "beat_id": "B22",
+      "title": "A manageable schedule",
+      "timing": {
+        "start": "02:25.17",
+        "end": "02:27.87",
+        "start_seconds": 145.171,
+        "end_seconds": 147.868,
+        "duration_seconds": 2.696,
+        "timing_flag": "TIGHT — simple visual only"
+      },
+      "shot_class": "GRAPHIC",
+      "objective": "Present banking and social accounts as next tasks.",
+      "subject_action": "Two simple planning cards appear in order.",
+      "environment": "Clean graphic field.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Two spacious blank planning cards with simple unbranded bank and social-account symbols, established warm series graphic styling, restrained blue accent, no checkmarks or completion badges.",
+      "final_motion_prompt": "Fade in banking card, then social card, following the narration. Hold each without competing motion.",
+      "continuity_dependencies": "Follows the email example; these are future scheduled actions, not account-state continuity.",
+      "readable_text_requirements": "**“Bank — this week”**, **“Socials — this weekend.”**",
+      "negative_constraints": "No countdown, urgency alarm, or appearance that either task is already completed.",
+      "paid_generation_required": false,
+      "paid_generation_rationale": "No. Pure graphic/compositor asset; build locally from deterministic shapes, icons, masks, and authored text. No paid image/video generation is required.",
+      "generation_status": "READY_FOR_LOCAL_BUILD"
+    },
+    {
+      "shot_id": "S023",
+      "beat_id": "B23",
+      "title": "One door at a time",
+      "timing": {
+        "start": "02:27.87",
+        "end": "02:30.55",
+        "start_seconds": 147.868,
+        "end_seconds": 150.551,
+        "duration_seconds": 2.683,
+        "timing_flag": "TIGHT — simple visual only"
+      },
+      "shot_class": "ENVIRONMENT",
+      "objective": "Reinforce gradual account-by-account progress.",
+      "subject_action": "A short row of ordinary doors; first door receives emphasis.",
+      "environment": "Bright, grounded residential hallway.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Small sequence of ordinary household doors in a warm mid-to-bright hallway, first door using the established lower-lock/upper-deadbolt design. Calm readable composition, no door numbers, symbols, or dramatic perspective.",
+      "final_motion_prompt": "Gentle lateral move that stops at the first door. Emphasize only that example; leave remaining doors as future steps. Dissolve to Aurora.",
+      "continuity_dependencies": "First door retains S003–S005 design. Additional doors are metaphorical next steps.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No simultaneous locking of every door, fortress corridor, endless hallway, or all-accounts-secured claim.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S024",
+      "beat_id": "B24",
+      "title": "Close the lesson",
+      "timing": {
+        "start": "02:30.55",
+        "end": "02:34.19",
+        "start_seconds": 150.551,
+        "end_seconds": 154.188,
+        "duration_seconds": 3.636,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Provide a warm stopping point.",
+      "subject_action": "Aurora closes the lesson calmly.",
+      "environment": "Established home table.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "aurora",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/aurora/identity/master/auntie_truth_ref_v2.jpg",
+            "sha256": "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**A**, directly supplied."
+      },
+      "final_image_prompt": "Aurora in the established warm home-table medium close-up, relaxed reassuring expression, exact canonical identity and appearance, bright readable indoor light, clean unlettered background.",
+      "final_motion_prompt": "Static camera, small settling gesture, natural speech synchronized to the approved recording. Cut to door recap.",
+      "continuity_dependencies": "Match S017’s character/set state.",
+      "readable_text_requirements": "**NONE**.",
+      "negative_constraints": "No new props, exaggerated goodbye wave, subscribe animation, or celebratory flourish.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S025",
+      "beat_id": "B25",
+      "title": "You know the next step",
+      "timing": {
+        "start": "02:34.19",
+        "end": "02:40.96",
+        "start_seconds": 154.188,
+        "end_seconds": 160.958,
+        "duration_seconds": 6.77,
+        "timing_flag": "OK"
+      },
+      "shot_class": "COMPOSITE",
+      "objective": "Depict understanding of added protection, not automatic completion.",
+      "subject_action": "Original lower lock leads to an explanatory upper-bolt and settings illustration.",
+      "environment": "Established door with restrained diagram overlay.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": false,
+        "references": [],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**NONE**."
+      },
+      "final_image_prompt": "Established ordinary door at its original three-quarter angle, clear lower lock and separate upper deadbolt. Space beside it for a simple blank settings-diagram inset. Warm mid-to-bright scene lighting, practical household scale.",
+      "final_motion_prompt": "Begin on the original lower lock, move slowly upward, and fade in the independent-bolt explanation. Briefly pair it with a schematic settings-control illustration, then dissolve back to Aurora.",
+      "continuity_dependencies": "Match S003’s angle and S005’s mechanism logic. Settings inset represents learned location/action, not live account status.",
+      "readable_text_requirements": "**NONE**; use non-text schematic controls only.",
+      "negative_constraints": "No physical installation tutorial, autonomous construction, all-account completion animation, or activated toggle implying the viewer has already acted.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S026",
+      "beat_id": "B26",
+      "title": "Together",
+      "timing": {
+        "start": "02:40.96",
+        "end": "02:45.35",
+        "start_seconds": 160.958,
+        "end_seconds": 165.348,
+        "duration_seconds": 4.39,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Land the series relationship and guiding principle.",
+      "subject_action": "Aurora offers direct reassurance and a natural smile.",
+      "environment": "Established table, matching the opening composition.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "aurora",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/aurora/identity/master/auntie_truth_ref_v2.jpg",
+            "sha256": "2ce8caa44b39d297b6043b237a12b076db0148fb8ea81f4b66f3dc6b6cde03e9"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**A**, directly supplied."
+      },
+      "final_image_prompt": "Aurora at the established home table, eye-level medium close-up matching the opening composition, gentle direct eye contact, exact canonical identity and appearance, warm readable light, uncluttered surfaces.",
+      "final_motion_prompt": "Nearly still camera, natural breathing and small smile. Synchronize speaking to locked narration. During the last two seconds, gently fade to the channel/tagline graphic, then yield to Kirk’s phone scene.",
+      "continuity_dependencies": "**Actual Aurora-bearing counterpart to S001.** S027 is a separate Kirk scene.",
+      "readable_text_requirements": "**“Truth Explains”** and **“Cybersecurity explained by Truth, with patience.”** Channel/tagline only.",
+      "negative_constraints": "No music swell, loud outro, added slogan, exaggerated gesture, or Aurora-to-Kirk identity morph.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S027",
+      "beat_id": "B27",
+      "title": "The invitation",
+      "timing": {
+        "start": "02:45.35",
+        "end": "02:52.87",
+        "start_seconds": 165.348,
+        "end_seconds": 172.872,
+        "duration_seconds": 7.524,
+        "timing_flag": "OK"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Introduce phishing as an ordinary persuasive message.",
+      "subject_action": "Kirk notices a message; his hand begins moving toward the phone.",
+      "environment": "Established bright desk.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K**, directly supplied."
+      },
+      "final_image_prompt": "Kirk over-shoulder at his established warm bright desk, canonical identity and appearance, portrait phone resting securely to the right of the laptop. Clean blank phone display for a simple message preview. Ordinary reassuring surroundings; no ominous color change.",
+      "final_motion_prompt": "One notification arrives and settles. Kirk notices it. Move slowly into phone detail; begin right-hand movement toward the device without contact. End with the phone and message state ready for the oblique close-up.",
+      "continuity_dependencies": "Same desk/device orientation as S013 and S021. Lock the message layer, phone angle, and hand trajectory for S028. Aurora remains voice-over only.",
+      "readable_text_requirements": "Compositor-authored **“New photo”** and **`https://example.invalid/photo`**. Treat the destination as inert artwork, not a functional hyperlink.",
+      "negative_constraints": "No skulls, flashing warnings, villain imagery, live URL, browser launch, message-link selection, tap, or implied activation.",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    },
+    {
+      "shot_id": "S028",
+      "beat_id": "B28",
+      "title": "Before the click",
+      "timing": {
+        "start": "02:52.87",
+        "end": "02:56.47",
+        "start_seconds": 172.872,
+        "end_seconds": 176.472,
+        "duration_seconds": 3.6,
+        "timing_flag": "COMPACT"
+      },
+      "shot_class": "CHARACTER",
+      "objective": "Leave the phishing decision unresolved while ending warmly.",
+      "subject_action": "Kirk’s right index finger approaches the link, then stops visibly above the glass.",
+      "environment": "Continuous phone close-up at the same desk.",
+      "canonical_identity_reference_requirements": {
+        "canonical_identity_required": true,
+        "references": [
+          {
+            "character_id": "kirk",
+            "required": true,
+            "reference_policy": "DIRECT_CANONICAL_MASTER_EVERY_CHARACTER_GENERATION",
+            "master_path": "~/Documents/Codex/truth-explains-media/characters/kirk/identity/master/Kirk.png",
+            "sha256": "f6ddc3305a9447ba033d5491703ca9a66c2e326b1e04b53b2bdde03d851f07fe"
+          }
+        ],
+        "generated_frame_identity_chaining_allowed": false,
+        "note": "**K**, directly supplied even though only his hand is visible."
+      },
+      "final_image_prompt": "Oblique close-up of Kirk’s canonical right hand and the established portrait phone, index fingertip suspended clearly above the link area, visible air gap and physically plausible perspective. Same warm bright desk light, phone position and blank screen plate for the unchanged message composite.",
+      "final_motion_prompt": "Slow approach only. Decelerate to a complete stop with an unmistakable air gap; hold through the final words. Hard cut to black after the narration finishes. Do not continue the hand trajectory beyond the stop.",
+      "continuity_dependencies": "Exact message and device state from S027. Finger approach must not cross the screen plane, including during the final transition.",
+      "readable_text_requirements": "Existing **“New photo”** and **`https://example.invalid/photo`** only. No additional overlay.",
+      "negative_constraints": "**No touch, tap, glass contact, pressed state, hover-triggered interface response, activation, page load, navigation, click sound, or post-black resolution.**",
+      "paid_generation_required": true,
+      "paid_generation_rationale": "Yes. Requires at least one new production visual plate/character/environment generation. Do not spend on prompt testing; use this locked payload. Local compositing/text remains separate.",
+      "generation_status": "READY_FOR_GENERATION"
+    }
+  ]
+}

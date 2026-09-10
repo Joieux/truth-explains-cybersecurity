@@ -1,0 +1,12 @@
+episode: epXX
+title: ""
+topic: ""
+accent_color: ""
+script: script.md
+status: READY_FOR_PIPELINE
+platforms: {youtube: true, tiktok: true, instagram: true}
+human_gates:
+  script_approved: false
+  major_factual_rewrite_approved: false
+  new_recurring_character_approved: false
+  final_render_approved: false

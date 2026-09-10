@@ -1,0 +1,29 @@
+{
+  "pipeline_version": 1,
+  "stages": [
+    "intake",
+    "cybersecurity_accuracy",
+    "aunt_truth_voice_guard",
+    "direction",
+    "casting",
+    "narration_preflight",
+    "narration_generation",
+    "timing",
+    "visual_design",
+    "shot_manifest",
+    "identity_continuity_cost_gate",
+    "visual_generation",
+    "music_sfx",
+    "assembly",
+    "render_qa",
+    "platform_derivatives",
+    "release_package"
+  ],
+  "paid_generation_policy": "approved production-ready payloads only; no exploration",
+  "publishing_policy": "PACKAGE_ONLY until explicit authorization",
+  "platforms": [
+    "youtube",
+    "tiktok",
+    "instagram"
+  ]
+}

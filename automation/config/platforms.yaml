@@ -1,0 +1,20 @@
+platforms:
+  youtube:
+    enabled: true
+    aspect_ratio: "16:9"
+    deliverables: [full_episode, thumbnail, captions, metadata]
+  tiktok:
+    enabled: true
+    aspect_ratio: "9:16"
+    deliverables: [vertical_clips, captions, cover, metadata]
+  instagram:
+    enabled: true
+    aspect_ratio: "9:16"
+    deliverables: [reels, captions, covers, metadata]
+composition:
+  cross_platform_safe_zones: true
+  prefer_one_generation_when_reframing_is_safe: true
+  separate_vertical_generation_only_when_required: true
+publishing:
+  default: PACKAGE_ONLY
+  automatic_posting: false

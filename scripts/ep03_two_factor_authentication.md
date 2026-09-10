@@ -85,7 +85,6 @@ Nobody to sweet-talk.
 And if a site offers passkeys
 or a hardware key —
 even better.
-That's the vault door.
 
 ---
 
@@ -94,11 +93,11 @@ Do not let the options overwhelm you.
 
 Because here's the truth nobody says out loud:
 
-Turning on ANY two factor
-puts you ahead of most of the internet.
+Turning on a second factor
+makes your account harder to steal.
 
 Scammers are fishing for easy.
-You just stopped being easy.
+You just made yourself a harder target.
 
 ---
 

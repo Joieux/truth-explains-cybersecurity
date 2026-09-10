@@ -1,0 +1,52 @@
+schema_version: 1
+
+character_id: "aurora"
+display_name: "Aunt Truth / Aurora Reid"
+
+voice_identity:
+  version: "aurora-voice-v1"
+  status: "APPROVED"
+  provider: "ElevenLabs"
+
+  voice_id: "zWoalRDt5TZrmW4ROIA7"
+  model_id: "eleven_multilingual_v2"
+  language_code: "en"
+  apply_text_normalization: true
+
+  voice_settings:
+    stability: 0.38
+    similarity_boost: 0.86
+    style: 0.42
+    use_speaker_boost: true
+
+  speed: null
+
+pronunciation:
+  aunt:
+    written_form: "Aunt"
+    tts_pronunciation: "Awnt"
+    note: "Use Awnt when phonetic control is required so ElevenLabs does not pronounce Aunt as Ant."
+
+production_rules:
+  canonical_series_voice: true
+  used_for:
+    - "EP01"
+    - "EP02"
+    - "EP03 and future episodes"
+
+  substitution_allowed: false
+  per_episode_voice_changes_allowed: false
+  human_approval_required_for_change: true
+
+  rules:
+    - "Do not add a speed parameter."
+    - "Do not change voice settings per episode."
+    - "Script pacing controls rhythm, not voice parameters."
+    - "Do not substitute another ElevenLabs voice."
+    - "Narration generation must use this manifest."
+    - "A voice rebrand requires explicit human approval."
+
+provenance:
+  source_voice_lock: "archive/legacy_desktop_2026-09-05/voice:elevenlabs-settings.md"
+  ep01_production_record: "archive/legacy_desktop_2026-09-05/production/ep01_assembly_guide.md"
+  authority: "EP01/EP02 established production voice"
